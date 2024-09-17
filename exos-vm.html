@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 26-03-19 Version - 1.0-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+     <title>NEXT Inc. EXOS- Virtual Machines</title>
+     <meta name="keywords" content="Virtual Machine, EXOS Platform"/>
+	 <meta name="description" content= "Virtual Machines are the major unit of consumption of the Cloud. With EXOS Platform you can use the virtual machine in the same way as the physical machine">
+	 <meta name="copyright" content="Next Techno Enterprise Pvt Ltd">
+	 <meta name="language" content="ES">
+	 <meta name="robots" content="index, follow" />
+	 <meta name="Classification" content="Digital Infrastructure, Product Solution, Enterprise solution, Cloud Technology">
+	 <meta name="url" content="http://nexttechnosolutions.com/exos-vm.html/">
+    <link rel="shortcut icon" href="images/favicon.png" />
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel='stylesheet' href='css/fancy-box-slider.css'>
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link href="css/mainstyle.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+         <!-- Sidebar Holder -->
+         <div class="menu-bg-out">
+            <nav id="sidebar">
+               <div class="menu-bg-img"></div>
+               <div id="dismiss"> 
+                   <div id="arrowAnimTop">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div> 
+                </div>
+           
+               <div class="sidebar-header"> </div>
+               <ul class="list-unstyled components">
+                  <li> <a href="index.html"><img src="images/menu-home.png" alt="Next Inc - Home Menu"><span class="menu-next">ext</span></a> </li>
+                  <li> <a href="who-we-are.html"><img src="images/menu-about.png" alt="Next Inc - Who We Are Menu">Who We Are</a> </li>
+                  <li> <a href="insight-digilog.html"><img src="images/menu-insight-and-inovation.png" alt="Next Inc - Insights and Digilog">Insights and Digilog</a> </li>
+                  <li>
+                     <a href="the-core.html"><img src="images/menu-prima.png" alt="Next Inc - The Core">The Core</a> 
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#core-collaps" aria-expanded="false" aria-controls="core-collaps"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="core-collaps">
+                        <li>
+                           <a href="digital-enterprise-solutions.html"><img src="images/menu-des.png" alt="Next Inc - Digital Enterprise Solutions">Digital Enterprise Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#des-collaps" aria-expanded="false" aria-controls="des-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="des-collaps">
+                              <li> <a href="lowcode.html"><img src="images/menu-lowcode.png" alt="Next Inc - Low Code Platform">Low Code Platform</a> </li>
+                               <li> <a href="transform.html"><img src="images/menu-tranform.png" alt="Next Inc - Transform Solution Suite">Transform Solution Suite</a> </li>
+                              <li> <a href="gis-digital-trasnformation.html"><img src="images/menu-geo.png" alt="Next Inc - GEO Spatial Solution">GEO Spatial Solution</a> </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="digital-infra-solutions.html"><img src="images/menu-dis.png" alt="Next Inc - Digital Infrastructure Solutions">Digital Infrastructure Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#dis-collaps" aria-expanded="false" aria-controls="dis-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="dis-collaps">
+                              <li> <a href="cloud-engineering.html"><img src="images/menu-cloud.png" alt="Next Inc - Platform">Platform</a> </li>
+                               <li> <a href="dis-product-list.html"><img src="images/menu-products.png" alt="Next Inc - Products">Products</a> </li>
+                              <li> <a href="service.html"><img src="images/menu-security.png" alt="Next Inc - Services">Services</a> </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="industry-verticals.html"><img src="images/menu-industrial.png" alt="Next Inc - Industry & Verticals">Industry &amp; Verticals</a>
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#indus-collapse"	 aria-expanded="false" aria-controls="indus-collapse"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="indus-collapse">
+                        <li> <a href="govt-sector.html"><img src="images/menu-goverment.png" alt="Next Inc - Government/Public">Government/Public</a> </li>
+                        <li> <a href="oil-gas-sector.html"><img src="images/menu-oil.png" alt="Next Inc - Oil & Gas">Oil &amp; Gas</a> </li>
+                        <li> <a href="trasnport.html"><img src="images/menu-transport.png" alt="Next Inc - Transportation & Logistics">Transportation &amp; Logistics</a> </li>
+                        <li> <a href="banking.html"><img src="images/menu-banking.png" alt="Next Inc - Banking & Financial Services">Banking &amp; Financial Services</a> </li>
+                        <li> <a href="healthcare.html"><img src="images/menu-healthcare.png" alt="Next Inc - Healthcare">Healthcare</a> </li>
+                        <li> <a href="renewable-energy.html"><img src="images/menu-reneweble.png" alt="Next Inc - Renewable Energy">Renewable Energy</a> </li>
+                        <li> <a href="agriculture.html"><img src="images/menu-agriculture.png" alt="Next Inc - Agriculture">Agriculture</a> </li>
+                     </ul>
+                  </li>
+                  <li> <a href="joinus.html"><img src="images/menu-joinus1.png" alt="Next Inc - Join Us">Join Us</a> </li>
+                  <li> <a href="reachus.html"><img src="images/menu-reach-us.png" alt="Next Inc - Reach Us">Reach Us</a> </li> 
+               </ul>
+            </nav>
+         </div>
+         <!-- Page Content Holder -->
+          <div id="mainmenu">
+            <nav class="navbar navbar-default pull-right">
+               <div class="navbar-header" onclick="changeimage()">
+                  <button type="button" id="sidebarCollapse" class="btn navbar-btn" >
+                      <img class="menu_image" src="images/logo1.png" alt="Next Inc - Logo">
+                     <span>ext</span>
+                  </button>
+               </div>
+            </nav>
+         </div>
+      </div>
+	<div class="overlay"></div>
+	<div class="container-fluid content_wrapper">
+		<h1>EXOS - Virtual Machines</h1>
+		<div class="row vertical-align">
+			<div class="col-xl-2 col-lg-12 col-md-12">
+				<div class="all-wheel-part-sec">
+					<div class="top-wheel-rotation rotate-animation"></div>
+					<div class="outer-wheel rotate-animation"></div>
+					<div class="inner-wheel-text-bx">
+						<p>EXOS</p>
+					</div>
+					<!--                 <div class="outer-rotate-div">-->
+					<ul class="circle-rotation rotate-animation exos-vm-rotation" id="rotate_menu">
+						<li class="wheel_part-color1">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Compute Layer" src="images/menu-compute_la.png"><div class="pro-cir-name">Compute<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color2">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Security Layer" src="images/menu-security-la.png"><div class="pro-cir-name">Security<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color3">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Performance Layer" src="images/menu-performance-la.png"><div class="pro-cir-name">Performance<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color4">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Network Layer" src="images/menu-network-la.png"><div class="pro-cir-name">Network<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color5">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Application Layer" src="images/menu-application_la.png"><div class="pro-cir-name">Application<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color6">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Storage Layer" src="images/menu-storage-la.png"><div class="pro-cir-name">Storage<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color7">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Database Layer" src="images/menu-database_la.png"><div class="pro-cir-name">Database<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color8">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Hardware Layer" src="images/menu-hardware_la.png"><div class="pro-cir-name">Hardware<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color9">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - OpenInterface Layer" src="images/menu-openinterface-la.png"><div class="pro-cir-name">OpenInterface<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color10">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Orchestration Layer" src="images/menu-orche_la.png"><div class="pro-cir-name">Orchestration<br> Layer</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color11">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Environment Layer" src="images/menu-environment_la.png"><div class="pro-cir-name">Environment<br> Layer</div></a>
+							</div>
+						</li>
+						
+					</ul>
+					<!--                     </div>-->
+					<div class="bottom-wheel-rotation rotate-animation"></div>
+				</div>
+			</div>
+			<div class="col-xl-10 col-lg-12 col-md-12 bhoechie-tab">
+				<div class="bhoechie-tab-content active no-scroll">
+					<section>
+						<div class="row">
+							<div class="col-xl-9 col-lg-8 col-md-12">
+								<div class="prodct_spec">
+                                     <h3>COMPUTE LAYER</h3>
+									<p>Compute Layer Provides the overall Compute Functionality for the cloud. It allows the Administrator/ User in Creating Templates for Virtual Machines and Virtual Machines itself.</p>
+									<div class="prodct_spec_media">
+										<!-- Media -->
+										<div class="media">
+											<div class="media-left media-top">
+												<img alt="Next Inc - Logo" src="images/exos-vm1.png"
+													class="media-object wow zoomIn" style="max-width: 60px;"
+													data-wow-delay="0s">
+											</div>
+											<div class="media-body">
+												<h5 class="media-heading">Templates</h5>
+												<p>Templates are the blueprint or pre-defined configurations for creating Virtual Machines. It allows users in
+                                                    creating a virtual machine in a click of a button.</p>
+                                                <p>A Template can be created by specifying the CPU, Memory, Image, Network and other parameters. The Virtual Machine created from this template would use the image with CPU, Memory, and Network which can also be overridden.</p>
+											</div>
+										</div>
+										<!-- Media -->
+										<div class="media">
+											<div class="media-left media-top">
+												<img alt="Next Inc - Virtual Machines" data-wow-delay="0.5s" src="images/exos-vm2.png"
+													class="wow zoomIn media-object" style="max-width: 60px;">
+											</div>
+											<div class="media-body">
+												<h5 class="media-heading">Virtual Machines</h5>
+												<p>Virtual Machines are the Major unit of consumption of the Cloud. These are the servers where the
+                                                    Application will be deployed. The Virtual Machine can be created scratch or from a template. Through the
+                                                    EXOS Platform, we can log into the console of the Virtual Machine. This would provide us the opportunity of
+                                                    using the virtual machine in the same way as the physical machine. There are a number of actions that can
+                                                    be performed on the virtual machines like power off, shutdown, reboot, deploying to a selected Host etc.</p>
+                                                <p>The Dashboard page The Control Board provides the controls to create Templates, Virtual Machine, and
+                                                    actions that can be performed on a Virtual Machines and also scheduling an action at a later point of time.
+                                                    The Analytic Board provides the distribution of the Overall configuration of Virtual Machines, Trends of the
+                                                    Virtual Machines in different State (Active, Inactive, and Total), Events and the possible alerts.</p>
+                                                <p>The List Page of the Virtual Machine provides the List of Virtual Machines with the possible actions that can
+                                                    be performed in the control board side. On the Analytic board, it provides the cumulative graph of CPU,
+                                                    Memory and Disk utilization of the Virtual Machines for the last one week. The graphs would show the value
+                                                    relevant to the selected Virtual Machines. Also, the information labels pertaining to the various states
+                                                    provide a holistic picture.</p>
+                                                <p>The VNC button provides access to the console of the selected Virtual Machine. This would enable the
+                                                    user/administrator in using the virtual machine as a physical machine.</p>
+                                                <p>When we select a virtual machine, we are navigated to the detail page of the virtual machine. The Control
+                                                    Board provides the various controls and the information pertaining to the virtual machine. This information
+                                                    is classified into General Info, CPU Capacity, Storage, Network and etc. When this information is selected,
+                                                    then their corresponding analytics are provided in the Analytics Board.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-12">
+								<div class="prodct_spec row">
+									<div class="col-sm-6 col-lg-11 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/compute.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/compute.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-sm-6 col-lg-11 ">
+                                         <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/template1.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                    <img alt="Next Inc - Compute Layer" src="images/vm-screens/template1.png" title="Compute Layer"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/vm1.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                    <img alt="Next Inc - Compute Layer" src="images/vm-screens/vm1.png" title="Compute Layer"></a>
+                                            </div>
+                                             <div class="item">
+                                                 <a href="images/vm-screens/vm2.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                     <img alt="Next Inc - Compute Layer" src="images/vm-screens/vm2.png" title="Compute Layer"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal" data-target="#myModalHorizontal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="bhoechie-tab-content no-scroll">
+					<section>
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12">
+								<div class="prodct_spec row">
+                                    <div class="col-xl-3 col-lg-4 col-md-12">
+                                        <div class="row">
+                                        <div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/security.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/security.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12 ">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/security1.png" data-fancybox="images" class="wheel_part-color2_image">
+                                                    <img alt="Next Inc - SECURITY LAYER" src="images/vm-screens/security1.png" title="SECURITY LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/security2.png" data-fancybox="images" class="wheel_part-color2_image">
+                                                    <img alt="Next Inc - SECURITY LAYER" src="images/vm-screens/security2.png" title="SECURITY LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-xl-9 col-lg-8 col-md-12">
+                                        <h3>SECURITY LAYER</h3>
+									<p>The Security Layer provides the Security for the Cloud as well as the application running on the cloud. The Control Board on the Dashboard provides the Data Security, Virtual machine Security, Monitoring of the EXOS Server (DDoS Prevention), Network monitoring and application scanning.</p>
+                                    
+                                    <p>Data Security provides security to the Data in Rest as well Data in Motion. Data is Motion is provided by checking whether HTTPS is enabled in EXOS Server or Not. The HTTPS provides the TLS security encrypting the data transfer that takes place between the client and the server. For the Data in REST, it encrypts and saves the files. It Lists the Keys which are used for encryption. The Files which are saved to the disk can be opened only using those keys. This ensures that the data in rest are well secured.</p>
+                                   
+									<p>Virtual Machine Security provides the monitoring of memory and network of the virtual machine. This monitoring will provide the complete visibility of the network transaction as well as memory consumption.</p>
+                                    
+                                    <p>File Monitoring is done for the EXOS Server providing the Activity of the Files that happened in the EXOS server. Login Monitoring is done for the EXOS Server. So if there is an automated attempt to hack the EXOS Server, it will ban the IP accessing the Server. This blocking of the login attempt ensures that the hacking the server is prohibited. It also provides the Threat Map. Threat Map is about the threats that are currently happening around the world. It also monitors the DB Connection that is made to the EXOS Database Server.</p>
+                                    
+                                    <p>Network Monitoring the Authentication Log and the list of ports that are opened. Application Monitoring is done by scanning the Application and providing the vulnerabilities that are present in that application.</p>
+                                        
+                                    <p>The Security Layer ensures the perimeter security for the cloud as well as the in-depth security for the application running in the cloud.</p>
+                                    </div>
+                                     
+								</div>
+							</div>
+							
+						</div>
+					</section>
+				</div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12">
+								<div class="prodct_spec row">
+                                    <div class="col-xl-9 col-lg-8 col-md-12">
+                                     <h3>PERFORMANCE LAYER</h3>
+									<p>Cloud computing is a way to dynamically allocate and deliver IT services in response to rapidly changing business needs without having to understand the technology itself. As the pace of business and society, in general, continues to accelerate, the physical and digital foundations on which progress depends are straining to keep up. Focusing on performance is key.</p>
+                                    
+                                    <p>The Performance Layer is used to increase the performance of the Cloud. The performance layer provides the knobs and graphs to monitor the performance as well as control and the performance of the application running in the cloud.</p>
+                                    
+									<p>The Control Board provides the ability to increase or decrease the RAM of a Virtual Machine. Also, it provides the ability to increase or decrease the number of CPU Cores in a Virtual Machine. It also allows us to set the Peak, Average Inbound and Outbound values. If the Virtual Machine has multiple OS, then the boot order of the Virtual Machine can be changed. Load balancing is the process of distributing workloads across multiple computing resources. The load balancer can be added for multiple backs ends at the same time using HAProxy. By this way, traffic can be distributed.</p>
+                                    
+                                    <p>The Analytic Board Provides the Overall Load Average of all the Virtual machines that are available in the Cloud. The Memory Chart provides the Overall Average Memory Consumption of all the Virtual Machines that are in the cloud. For CPU (System, User, IO wait) statistics are provided for all the virtual machines. Disk Read/Write Usage of all the available Virtual Machines in the cloud are shown as part of the analytics board.</p>
+                                        
+                                    <p>The Control Board, as well as the analytic board, provides the data as well as the controls to tune the performance of the applications running in the cloud.</p>
+                                        </div>
+                                    <div class="col-xl-3 col-lg-4 col-md-12">
+                                        <div class="row">
+                                        <div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/Performance.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/Performance.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/vm-screens/performance1.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                     <img alt="Next Inc - PERFORMANCE LAYER" src="images/vm-screens/performance1.png" title="PERFORMANCE LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/vm-screens/performance2.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                     <img alt="Next Inc - PERFORMANCE LAYER" src="images/vm-screens/performance2.png" title="PERFORMANCE LAYER"></a>
+                                            </div>
+                                                    <div class="item">
+                                                         <a href="images/vm-screens/performance3.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                             <img alt="Next Inc - PERFORMANCE LAYER" src="images/vm-screens/performance3.png" title="PERFORMANCE LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                                        </div>
+                                        
+                                    </div>
+									
+								</div>
+							</div>
+							
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12">
+								<div class="prodct_spec row">
+                                    <div class="col-lg-3">
+                                        <div class="row">
+                                        <div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/network.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/network.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/vm-screens/network1.png" data-fancybox="images" class="wheel_part-color4_image">
+                                                     <img alt="Next Inc - NETWORK LAYER" src="images/vm-screens/network1.png" title="NETWORK LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/vm-screens/network2.png" data-fancybox="images" class="wheel_part-color4_image">
+                                                     <img alt="Next Inc - NETWORK LAYER" src="images/vm-screens/network2.png" title="NETWORK LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-9">
+                                     <h3>NETWORK LAYER</h3>
+									<p>It enables the Networking Capability for the cloud, by allowing managing the virtual network, security group, routers</p>
+                                    <br>
+                                    <div class="media">
+                                                      <div class="media-left media-top"> <img alt="Next Inc - Virtual Network" src="images/exos-vm3.png" class="media-object wow zoomIn" style="max-width: 50px; visibility: visible; animation-delay: 0s; animation-name: zoomIn;" data-wow-delay="0s"> </div>
+                                                      <div class="media-body">
+                                                         <h5 class="media-heading">Virtual Network</h5>
+                                                         <p>The Control Board on the dashboard provides the ability to create virtual machines, updating the range of the IP address, Creating Security Groups and virtual routers. The Analytics provides the Top 5 Virtual machines in terms of their Network Receive and Network Transmit along with the indication of the firewall and the Bandwidth of the Hosts.</p>
+                                                          <p>The Control Board on the List Page provides the list of the virtual Networks with the actions. The Analytics board provides the list of Free IP, used IP for each of these networks.</p>
+                                                          <p>The Control Board on the Detail Page provides the Detailed Information of a particular Network classified into General Info, Address Ranges, Leases List, Security Group Rules, etc. The Analytic Board shows the Lease Status along with the Cumulative Network Transmit, Receive. It also provides the number of Virtual Machines which are using this virtual Network for its network configuration.</p>
+                                                      </div>
+                                                   </div>
+                                        <div class="media">
+                                                      <div class="media-left media-top"> <img alt="Next Inc - Security Groups" data-wow-delay="0.5s" src="images/exos-vm4.png" class="wow zoomIn media-object" style="max-width: 50px; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> </div>
+                                                      <div class="media-body">
+                                                         <h5 class="media-heading">Security Groups</h5>
+                                                         <p>These are the rules which are applied on top of the virtual network to control the TCP/UDP traffic flow in and out of the virtual machines. These can be created and assigned to a virtual network. For Example, a security group of Allowing only the inbound port of 22 and outbound port of 80 would provide a Virtual Machine where only these ports are exposed and other ports are restricted from usage.</p>
+                                                         <p>The List Page provides the List of security groups along with actions, whereas the detail page provides the details of the rules present in a security group and the list of Virtual Machines using this security group.</p>
+                                                      </div>
+                                                   </div>
+                                        </div>
+                                    
+									
+								</div>
+							</div>
+							
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+                                       <div class="product-layout4">
+                                          <div class="row">
+                                             <div class="col-xl-9 col-lg-8 col-md-12">
+                                                  <h3>APPLICATION LAYER</h3>
+                                                 <p>Application Layer provides a complete environment that is actively managed, letting you focus on your application code. It provides a framework for developers that they can build upon and use to create customized applications. All servers, storage, and networking can be managed by the enterprise while the developers can maintain management of the applications.
+                                             </p>
+                                                <ul class="margin-top-10">
+                                                   <li>Simple and cost-effective</li>
+                                                   <li>Scalable</li>
+                                                   <li>Highly available</li>
+                                                   <li>Ease of customization</li>
+                                                   <li>Less time consuming</li>
+                                                   <li>Focuses on coding</li>
+                                                </ul>
+                                                 <br>
+                                                 <p>The Application layer catalog’s applications that can be deployed in the cloud. It provides the ability to install the application on the cloud in a click of a button. The Control Board provides this application like Geo, Django, etc. These will create a Virtual Machine with Django pre-installed. The Analytics board provides the overall Events and the Status of these installed applications.</p>
+                                             </div>
+                                             <div class="col-xl-3 col-lg-4 col-md-12">
+                                                <div class="row">
+                                        <div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/Application.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/Application.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/application1.png" data-fancybox="images" class="wheel_part-color5_image">
+                                                    <img alt="Next Inc - APPLICATION LAYER" src="images/vm-screens/application1.png" title="APPLICATION LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/application2.png" data-fancybox="images" class="wheel_part-color5_image">
+                                                    <img alt="Next Inc - APPLICATION LAYER" src="images/vm-screens/application2.png" title="APPLICATION LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                                        </div>
+                                             </div>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          
+                                       </div>
+                                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+                                       <div class="row">
+                                          <div class="col-lg-12 col-md-12">
+                                             <div class="product-layout2">
+                                                <div>
+                                                   <h3>STORAGE LAYER</h3>
+                                                   <p>It handles the storage capability of the cloud. The Storage Layer manages the Images for running virtual machines as well as the virtual machine runtime storage.<br>
+                                                       The Control Board in the Dashboard page provides the ability to Create datastores, Images, Attaching/detaching disk to virtual Machines along with snapshotting.<br>
+                                                       The Analytic Board provides the overall Usage of the Storage in terms of System, Image as well as the trends of the storage along with the Events.
+                                                   </p>
+                                                </div>
+                                                <div class="prodct_spec_media">
+                                                   <!-- Right-aligned -->
+                                                   <div class="media">
+                                                      <div class="media-body">
+                                                         <h4 class="media-heading">Datastore</h4>
+                                                         <p>Datastore is the logical partition/ interface to the storage hardware where are categorized as System (for Running the virtual machines), Image (the images for creating virtual machines) and Files (for storing the start-up, script files).</p>
+                                                          <p>The Control Board on the List page of the Datastore provides the list of Datastore with the Type, Used, Total, Free Memory which is already available as well as the ability to create a new Datastore. The Analytic Board provides Cumulative Usage/Total View of the entire System Datastore and the Image Datastore.</p>
+                                                          <p>The Detail page provides the Detail Information of the Datastore.</p>
+                                                      </div>
+                                                      <div class="media-right">
+<!--
+                                                          <a href="images/vm-screens/storage1.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                    <img src="images/vm-screens/storage1.png" title="Compute Layer"></a>
+-->
+                                                    <img alt="Next Inc - Datastore" src="images/vm-screens/storage1.png" title="Datastore">
+                                                      </div>
+                                                   </div>
+                                                   <!-- Left-aligned -->
+                                                   <div class="media">
+                                                      <div class="media-left">
+<!--
+                                                          <a href="images/vm-screens/storage2.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                    <img src="images/vm-screens/storage2.png" title="Compute Layer"></a>
+-->
+                                                    <img alt="Next Inc - STORAGE LAYER" src="images/vm-screens/storage2.png" title="STORAGE LAYER">
+                                                      </div>
+                                                      <div class="media-body">
+                                                         <h4 class="media-heading">Images</h4>
+                                                         <p>
+                                                            The Control Board on the List page of the Image provides the List of the Image that is available along with the number of Virtual Machines that are created from those images. The Analytic Board show the distribution of the Image in terms of the state and also in terms of the type. The Detail Page shows the detail information of the Image.
+                                                         </p>
+                                                      </div>
+                                                   </div>
+                                                   <div class="media">
+                                                      <div class="media-body">
+                                                         <h4 class="media-heading">File</h4>
+                                                         <p>The File Shows the List of File along with ability to create a new file. The information labels show the total number of files. The file details are available as part of the detail page.</p>
+                                                      </div>
+                                                      <div class="media-right">
+<!--
+                                                          <a href="images/vm-screens/storage3.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                    <img src="images/vm-screens/storage3.png" title="Compute Layer"></a>
+-->
+                                                    <img alt="Next Inc - File" src="images/vm-screens/storage3.png" title="File">
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <br>
+                                             </div>
+                                          </div>
+                                          <div class="col-lg-12 col-md-12">
+                                             <div class="row align-items-center">
+                                                <div class="col-lg-3 col-md-6">
+                                                   <!--<h4>Product Video</h4>-->
+                                                   <video height="180" controls="">
+                                                      <source src="images/vm-screens/videos/Storage.mp4" type="video/mp4">
+                                                      <source src="images/vm-screens/videos/Storage.mp4" type="video/ogg">
+                                                      Your browser does not support the video tag.
+                                                   </video>
+                                                </div>
+                                                 <div class="col-lg-9 col-md-6">
+                                                   <div class="benefits-sec-blue">
+                                                      <h4>Let’s Organize your System</h4>
+                                                      <p>Today’s HR practices focus on engaging and empowering employees </p>
+                                                      <button class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+                                       <div class="product-layout4">
+                                          <div class="row">
+                                              <div class="col-xl-3 col-lg-4 col-md-12">
+                                                <div class="row">
+                                        <div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/Database.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/Database.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/database1.png" data-fancybox="images" class="wheel_part-color7_image">
+                                                    <img alt="Next Inc - DATABASE LAYER" src="images/vm-screens/database1.png" title="DATABASE LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/database2.png" data-fancybox="images" class="wheel_part-color7_image">
+                                                    <img alt="Next Inc - DATABASE LAYER" src="images/vm-screens/database2.png" title="DATABASE LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+									</div>
+                                        </div>
+                                             </div>
+                                             <div class="col-xl-9 col-lg-8 col-md-12">
+                                                  <h3>DATABASE LAYER</h3>
+                                                 <p>The Database that typically runs on a cloud computing platform and access to the database is provided as-a-service. Database services take care of scalability and high availability of the database. Database services make the underlying software-stack transparent to the user. With a database as a service model, application owners do not have to install and maintain the database themselves. Instead, the database service provider takes responsibility for installing and maintaining the database, and application owners are charged according to their usage of the service.
+                                             </p>
+                                                <br>
+                                                 
+                                                 <p>The Database Layer manages the database instances running in the cloud. Provides ability to quickly provision SQL Servers like MySQL and PostgreSQL and NoSQL Servers like Maria, Redis, etc.</p>
+                                                 <br>
+                                                 <p>The Control Board provides the creating Mysql, Postgres, and MongoDB in a click of a button. It also provides the ability to backup and restores the Database. The List of Databases that are backed up and restored is also shown.</p>
+                                                 <br>
+                                                 <p>The Analytic Board provides the cumulative distribution of used vs. available of all the MySQL, Postgres Servers on the Cloud. It also provides the average Query Time that is taken for all the MySQL and Postgres servers. The Number of DB Operations like insert, update, delete are also provided. In addition to the MySQL, Postgres Server, Redis Server can also be managed in the Database layer.</p>
+                                             </div>
+                                             
+                                          </div>
+                                          <br>
+                                          <br>
+                                          
+                                       </div>
+                                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content  no-scroll">
+					<section>
+						<div class="row">
+							<div class="col-xl-9 col-lg-8 col-md-12">
+								<div class="prodct_spec">
+                                     <h3>HARDWARE LAYER</h3>
+									<p>The Hardware Layer provides the ability to manage the Hardware that builds the cloud. Ability to add new
+computer hardware to the cloud and it also provides the clustering of computing, storage, and network.</p>
+                                    <p>The Control Board of the hardware layer provides the ability to add new rack servers called as Host into the
+Cloud. This the compute engine on top of which the virtual machines will be running. It also provides the
+ability to create clusters, along with the reservation of CPU, Memory for Both Host and Cluster. The reserving
+would help to limit the resource that is exposed by the Host. The value could also be in negative allowing to
+over committing the resources.</p>
+                                    <p>The Analytic Board of the Dashboard Page provides the CPU Usage (in terms of free, allocated and used) as
+well as the Memory usage. In addition to the Alerts, it also provides the Temperature of the Host as well as
+the interrupt Statistics of the Host.</p>
+									<div class="prodct_spec_media">
+										<!-- Media -->
+										<div class="media">
+											<div class="media-left media-top">
+												<img alt="Next Inc - Host" src="images/exos-vm5.png"
+													class="media-object wow zoomIn" style="max-width: 60px;"
+													data-wow-delay="0s">
+											</div>
+											<div class="media-body">
+												<h5 class="media-heading">Host</h5>
+												<p>The List page of the Host provides the list of Host that are available in the cloud along with the ability to
+control that host as well as the ability to create a new Host. The Analytic Board shows the distribution of the
+Host in terms of its state, as well as the information, labels The Detail Page of the Host Provides the
+information like Allocated Cores, Memory as well as the list of virtual machines which are running on the
+Host. The Analytic Board shows the CPU and the Memory Distribution along with the datastore.</p>
+											</div>
+										</div>
+										<!-- Media -->
+										<div class="media">
+											<div class="media-left media-top">
+												<img alt="Next Inc - Cluster" data-wow-delay="0.5s" src="images/exos-vm6.png"
+													class="wow zoomIn media-object" style="max-width: 60px;">
+											</div>
+											<div class="media-body">
+												<h5 class="media-heading">Cluster</h5>
+												<p>The cluster is a grouping of Host. The cluster can have associated Datastore and Network allowing the
+administrator to associate a Host with its required set of Datastore and Network requirements. The List Page
+of the Cluster provides the list of the cluster with the information of how much host, datastore and network
+are available. It also allows create/update and deleting a cluster. The Detail page of a Cluster provides the
+Detail information of the list of Host, Datastore, and Network that is part of the Cluster along with the
+general information.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-12">
+								<div class="row">
+									<div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/hardware.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/hardware.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/host1.png" data-fancybox="images" class="wheel_part-color8_image">
+                                                    <img alt="Next Inc - HARDWARE LAYER" src="images/vm-screens/host1.png" title="HARDWARE LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/host2.png" data-fancybox="images" class="wheel_part-color8_image">
+                                                    <img alt="Next Inc - HARDWARE LAYER" src="images/vm-screens/host2.png" title="HARDWARE LAYER"></a>
+                                            </div>
+                                                     <div class="item">
+                                                         <a href="images/vm-screens/host3.png" data-fancybox="images" class="wheel_part-color8_image">
+                                                             <img alt="Next Inc - HARDWARE LAYER" src="images/vm-screens/host3.png" title="HARDWARE LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content  no-scroll">
+					<section>
+                                       <div class="product-layout3">
+                                          <div>
+                                             <h3>OPEN INTERFACE LAYER</h3>
+                                             <p>This layer allows the administration User, Group Management of the Cloud. Provides the ability to manage
+Users, Groups allocate Quota of Compute, Storage, and Network to individual Groups, Users
+                                             </p>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          <div>
+                                             <div class="row">
+                                                <div class="col-xl-3 col-lg-4 col-md-12">
+                                                   <div class="row">
+									<div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/openinterface.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/openinterface.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/user1.png" data-fancybox="images" class="wheel_part-color9_image">
+                                                    <img alt="Next Inc - OPEN INTERFACE LAYER" src="images/vm-screens/user1.png" title="OPEN INTERFACE LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/user2.png" data-fancybox="images" class="wheel_part-color9_image">
+                                                    <img alt="Next Inc - OPEN INTERFACE LAYER" src="images/vm-screens/user2.png" title="OPEN INTERFACE LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+									</div>
+								</div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-8 col-md-12">
+                                                   <!-- Media -->
+                                                   <div class="media">
+                                                      <div class="media-left media-top"> <img alt="Next Inc - Quotas" src="images/exos-vm7.png" class="media-object wow zoomIn" style="max-width: 50px; visibility: visible; animation-delay: 0s; animation-name: zoomIn;" data-wow-delay="0s"> </div>
+                                                      <div class="media-body">
+                                                         <h5 class="media-heading">Quotas</h5>
+                                                         <p>The Quota can be the number of Virtual Machines, Amount of CPU, Memory, System Disk, List of Virtual
+Machines that can be created from the Images or List of IP's that can be allocated from a Virtual Network or
+Size that is allocated in each datastore. Also allows for the creation of Tickets.
+                                                         </p>
+                                                         <p>The Analytic Board of the Dashboard shows the Online User Trends, Distribution of Blocked / Unblocked
+User. Also the Ticket Distribution in terms of its stage as well as the Geographic distribution of the User
+access.</p>
+                                                      </div>
+                                                   </div>
+                                                   <br>
+                                                   <!-- Media -->
+                                                   <div class="media">
+                                                      <div class="media-left media-top"> <img alt="Next Inc - Users" data-wow-delay="0.5s" src="images/exos-vm8.png" class="wow zoomIn media-object" style="max-width: 50px; visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> </div>
+                                                      <div class="media-body">
+                                                         <h5 class="media-heading">Users</h5>
+                                                         <p>The Control Board on the List page shows the List of User along with their CPU, Memory and the VM Quota
+Allocation. It also provides the ability to create, delete, update, change the password and assign Quota and
+update group as well.</p>
+                                                         <p>The Analytic Board on the List Page shows the distribution of the Blocked Users.</p>
+                                                         <p>The Detail Page shows the detailed information of the User along with the relevant control is available on the list page.</p>
+                                                      </div>
+                                                   </div>
+                                                   <br>
+                                                   <!-- Media -->
+                                                   <div class="media">
+                                                      <div class="media-left media-top"> <img alt="Next Inc - Group" data-wow-delay="1s" src="images/exos-vm9.png" class="wow zoomIn media-object" style="max-width: 50px; visibility: visible; animation-delay: 1s; animation-name: zoomIn;"> </div>
+                                                      <div class="media-body">
+                                                         <h5 class="media-heading">Group:</h5>
+                                                         <p>The Group List page shows the list of the group along with their Quota Allocation in terms of CPU, Memory, VM and also the number of Users in each. It provides controls to create/delete a group, and change quota. The Detail Page shows the list of User available in the group in addition to the general information.
+                                                         </p>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <br>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+                                       <div class="product-layout4">
+                                          <div>
+                                             <h3>ORCHESTRATION LAYER</h3>
+                                             <p>The Orchestration layer manages the orchestration of the cloud. It orchestrates the application stack and
+provides the ability to spin up a new stack in a click of a button.</p>
+                                          </div>
+                                          <div class="row">
+                                             <div class="col-xl-9 col-lg-8 col-md-12">
+                                                <ul class="margin-top-10">
+                                                   <li>It also provides the ability to auto scale. <br> The Control Board in the Dashboard provides the ability to create Service Templates and Services.</li>
+                                                   <li>The various actions for particular service roles like power off, suspend, Start, Stop etc can be managed.</li>
+                                                   <li>Manual Scaling of the stack can also be performed.</li>
+                                                   <li>The Analytics Board provide the Status of the individual Services with the Trends.</li>
+                                                   <li>It also provides the Events and Alerts of the services.</li>
+                                                </ul>
+                                                 <div class="row">
+                                             <div class="col-lg-12 col-md-12">
+                                                <!-- Media -->
+                                                <div class="media">
+                                                   <div class="media-left media-top"> <img alt="Next Inc - Service Template" data-wow-delay="1s" src="images/exos-vm11.png" class="wow zoomIn media-object" style="max-width: 50px; visibility: visible; animation-delay: 1s; animation-name: zoomIn;"> </div>
+                                                   <div class="media-body">
+                                                      <h5 class="media-heading">Service Template</h5>
+                                                      <p>The Service Template is similar to Template in Compute Layer. The Service Template can be created by
+specifying the different Roles, and their relationship. Once the Service Template is created, it can be
+instantiated to create a service.</p>
+                                                       <p>The List page shows the list of service templates with the ability to create Service as well as the ability to update the template. The information label shows the number of the available service template.</p>
+                                                       <p>The Detail Page of the Service Template provides information about the various roles that are available in the template along with the relationship between them.</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <br>
+                                             <div class="col-lg-12 col-md-12">
+                                                <!-- Media -->
+                                                <div class="media">
+                                                   <div class="media-left media-top"> <img alt="Next Inc - Service" data-wow-delay="1s" src="images/pro-hcms-icon3.png" class="wow zoomIn media-object" style="max-width: 50px; visibility: visible; animation-delay: 1s; animation-name: zoomIn;"> </div>
+                                                   <div class="media-body">
+                                                      <h5 class="media-heading"> Service</h5>
+                                                      <p>The Service is the actual application stack that is running. The List page provides the list of service with the ability to create a new service as well as control the existing service. The Analytic Board provides the
+                                                    distribution of services in terms of the state of the service. The Detail page of the Service will list the Roles that are available in the service. When a role is clicked, the VM's which are available in that particular role
+                                                    will be displayed. The Action can be performed at the Virtual Machine level as well as the Role Level. The
+                                                    Analytics Board will provide the Logs of the Service.</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                           
+                                             
+                                             
+                                          </div>
+                                             </div>
+                                             <div class="col-xl-3 col-lg-4 col-md-12">
+                                                <div class="row">
+									<div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/orchestration.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/orchestration.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/vm-screens/orchestration1.png" data-fancybox="images" class="wheel_part-color10_image">
+                                                     <img alt="Next Inc - ORCHESTRATION LAYER" src="images/vm-screens/orchestration1.png" title="ORCHESTRATION LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/vm-screens/orchestration2.png" data-fancybox="images" class="wheel_part-color10_image">
+                                                     <img alt="Next Inc - ORCHESTRATION LAYER" src="images/vm-screens/orchestration2.png" title="ORCHESTRATION LAYER"></a>
+                                            </div>
+                                                    <div class="item">
+                                                         <a href="images/vm-screens/orchestration3.png" data-fancybox="images" class="wheel_part-color10_image">
+                                                             <img alt="Next Inc - ORCHESTRATION LAYER" src="images/vm-screens/orchestration3.png" title="ORCHESTRATION LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+									</div>
+								</div>
+                                             </div>
+                                          </div>
+                                          <br>
+                                          <br>
+                                          
+                                         
+                                       </div>
+                                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+						<div class="row">
+                            <div class="col-xl-3 col-lg-4 col-md-12">
+                                                   <div class="row">
+									<div class="col-sm-6 col-lg-12 padding-left-30 margin-bottom-50">
+										<video height="240" controls>
+											<source src="images/vm-screens/videos/Environment.mp4" type="video/mp4">
+											<source src="images/vm-screens/videos/Environment.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+                                            <div class="col-sm-6 col-lg-12">
+                                                <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/vm-screens/environment1.png" data-fancybox="images" class="wheel_part-color11_image">
+                                                    <img alt="Next Inc - ENVIRONMENT LAYER" src="images/vm-screens/environment1.png" title="ENVIRONMENT LAYER"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/vm-screens/environment2.png" data-fancybox="images" class="wheel_part-color11_image">
+                                                    <img alt="Next Inc - ENVIRONMENT LAYER" src="images/vm-screens/environment2.png" title="ENVIRONMENT LAYER"></a>
+                                            </div>
+                                          </div>
+                                            </div>
+                                            <div class="text-center col-md-12">
+										<button data-toggle="modal" data-target="#myModalHorizontal" id="basicSuccess" type="button" class="btn btn-success btn-eql-wid disabled btn-disabled"  style="display:none;">Try Me</button>
+									</div>
+								</div>
+                                                </div>
+							<div class="col-xl-9 col-lg-8 col-md-12">
+								<div class="prodct_spec">
+                                     <h3>ENVIRONMENT LAYER</h3>
+									<p>The Environment Layer includes the process of monitoring, managing and operating a data center to be in compliance with the operating and organizational requirements. It is the process of using manual and automated tools and techniques to ensure the best operating health of a data center.</p>
+                                    
+                                    <p>By utilizing IoT (Internet of Things) management systems to collect and analyze data, and then using that data to enact targeted power management changes, data centers will be able to immediately see areas for improving efficiency throughout their operations. Through the combination of large scale data generated by an IoT (Internet of Things) system with machine-driven analytics to create actionable insights, IoT (Internet of Things) management systems result in smarter energy usage while increasing data center stability.</p>
+                                    
+									<p>It provides the ability to control the Data Center in which the cloud is operated.</p>
+                                    
+                                    <p>The Control Board Provides the ability to increase or decrease the A.C of the Data Center.</p>
+                                    
+                                    <p>The Analytic Board provides the current AC Temperature and alerts in case of the temperature exceed a particular threshold. The IOT Sensor senses this information and provides the data, which are then used for controlling the AC through this IOT Sensor.</p>
+                                    
+                                    <p>Having an idea and a suitable environment(datacenter) is very critical and crucial for a cloud. This layer ensures that the cloud is properly monitored and regulated.</p>
+									
+								</div>
+							</div>
+							
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll">
+					<section>
+						<div class="row"><p>Testing12</p>
+                        </div>
+                    </section>
+                </div>
+			</div>
+            
+		</div>
+        
+        
+	</div>
+    
+    
+  
+	<div class="footer-wrap">
+		<div class="page-logo">
+			<a href="index.html" class="logo-default"><img alt="Next Logo"
+				src="images/nlogo.png"></a>
+		</div>
+		<h1 class="pagehead">EXOS - Virtual Machines</h1>
+        <div class="login-sec-icon"><a href="#" data-toggle="modal" data-target="#login-model-section"><img src="images/cses-login-icon.png"></a></div>
+		<div class="flip-logo1"></div>
+        <div class="text-right back-to-btn">
+              <a href="cloud-engineering.html" style="color: #000;">
+                Back to Platform
+                  <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+              </a>
+          </div>
+        <div id='toTop'> 
+            <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+          </div>
+	</div>
+    
+     <!-- CSES Login Page Model Popup -->
+<div class="modal fade" id="login-model-section" tabindex="-1" role="dialog" aria-labelledby="login-model-section" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Login</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            <div class="form-group">
+               <label for="lpwd">Password <span class="monitary">*</span></label>
+               <input type="password" class="form-control" id="lpwd" name="lpwd" placeholder="Enter Your Password" minlength="8" maxlength="15" data-error=".errorTxt102" required="">
+            </div>
+            <div class="form-group">
+            <a href="#" class="forgot_password candidate_forgot" id="signin">Forgot Password</a>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-eql-wid btn-animate" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Login Page Model Popup --> 
+       
+        <!-- CSES Forget Password Model Popup -->
+<div class="modal fade" id="forget-model-sec" tabindex="-1" role="dialog" aria-labelledby="forget-model-sec" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="forgot_password">Forgot Password</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Forget Password Model Popup --> 
+    
+	<!-- Trail for you Popup Form---
+	<div class="modal fade" id="myModalHorizontal" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span> <span class="sr-only">Close</span>
+					</button>
+				</div>
+				
+				<div class="modal-body">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label>User Name <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="text" class="form-control" placeholder="User name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Email Address <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="text" class="form-control"
+									placeholder="Email Address">
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Password <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="password" class="form-control"
+									placeholder="Password">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox">
+									<label> <input type="checkbox" /> Remember me
+									</label>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				
+				<div class="modal-footer">
+					<button id="basicError" type="button"
+						class="btn btn-danger btn-eql-wid btn-animate">Close</button>
+					<button id="basicSuccess" type="button"
+						class="btn btn-success btn-eql-wid btn-animate">Save
+						changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End model popup form-->
+	<!-- jQuery plugins -->
+	<script src="js/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script> 
+    <!-- Font Awesome 5 plugins -->       
+    <script src="fonts/fontawesome-free-5.7.2-web/js/all.js"></script>      
+    <!-- Font Awesome 5 plugins -->
+	<!-- Animate jQuery plugins -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!-- Slider plugins -->
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.bxslider').bxSlider({
+				auto : true,
+				mode : 'horizontal',
+				minSlides : 1,
+				maxSlides : 1,
+				speed : 500,
+				pager : false,
+				controls : false
+
+			});
+		});
+	</script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+        var fancyBoxClass = 'wheel_part-color1';
+		$(document).ready(
+				function() {
+					$("#sidebar").mCustomScrollbar({
+						theme : "minimal"
+					});
+					$('#dismiss, .overlay').on('click', function() {
+						$('#sidebar').removeClass('active');
+						$('.overlay').fadeOut();
+					});
+					$('#sidebarCollapse').on(
+							'click',
+							function() {
+								$('#sidebar').addClass('active');
+								$('.overlay').fadeIn();
+								$('.collapse.in').toggleClass('in');
+								$('a[aria-expanded=true]').attr(
+										'aria-expanded', 'false');
+							});
+
+					$('#rotate_menu > li a').click(
+							function(e) {
+                                fancyBoxClass = $(this).parent().parent().get(0).className;
+								e.preventDefault();
+                                fancybox_image_filter();
+								var index = $(this).parent('div').parent('li')
+										.index();
+								$(this).addClass("active").siblings("li")
+										.removeClass("active");
+								if ($(".rotate-animation").css("animation") == "rotation 20s infinite linear"){
+									$(".rotate-animation").css("-webkit-animation", "rotation 120s infinite linear")
+								} else {
+									$(".rotate-animation").css(
+											"animation-play-state", "paused");
+								}
+								$("div.bhoechie-tab>div.bhoechie-tab-content")
+										.removeClass("active");
+								$("div.bhoechie-tab>div.bhoechie-tab-content")
+										.eq(index).addClass("active");
+								return false
+							});
+					$("div.bhoechie-tab").click(
+							function(e) {
+								if ($(".rotate-animation").css(
+										"animation-play-state") == "paused") {
+									$(".rotate-animation").removeAttr("style");
+								}
+							});
+					$('#rotate_menu').bind(
+							'mousewheel',
+							function(e) {
+								if ($(".rotate-animation").css(
+										"animation-play-state") == "paused") {
+									$(".rotate-animation").removeAttr("style");
+									$(".rotate-animation").css("-webkit-animation", "rotation 30s infinite linear")
+								}
+							});
+				});
+	</script>
+    
+    <script src="js/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+          </script>
+    <!-- Script for menu logo icon change 05-03-2019 (Mathi)-->
+       <script>
+      $(document).ready(function(){
+          $(".navbar-header").trigger("click");
+      });
+        
+ function changeimage(){
+            setInterval(function(){  
+                
+            var logo_src = $(".menu_image").attr("src");
+                
+                
+              if(logo_src == "images/logo1.png") { 
+                  $(".menu_image").attr("src", "images/logo2.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+              else {
+                  $(".menu_image").attr("src", "images/logo1.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+            
+            }, 2000);}
+
+    </script>
+    <script src='js/fancy-box-slider.js'></script>
+        <script>
+           function fancybox_image_filter(){
+        selectorClass = '.owl-item:not(.cloned) .'+fancyBoxClass+'_image';
+           console.log('-654654--',selectorClass)
+        $().fancybox({
+         // selector : '.owl-item:not(.cloned) .wheel_part-color1_image',
+         selector : selectorClass,
+          hash   : false,
+          thumbs : {
+            autoStart : true
+          },
+          buttons : [
+            'zoom',
+            'download',
+            'close'
+          ]
+        });
+           }fancybox_image_filter()
+       </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+
+        $("#toTop").click(function () {
+           //1 second of animation time
+           //html works for FFX but not Chrome
+           //body works for Chrome but not FFX
+           //This strange selector seems to work universally
+           $("html, body").animate({scrollTop: 0}, 1000);
+        });
+       </script>
+    <script>
+        var winwidth = $(window).width();
+             // alert(winwidth);
+              if(winwidth > 1024) {
+                  $('.submenu-btn-arrow').removeAttr("data-toggle");
+              }
+              else {
+                  $('.submenu-btn-arrow').attr("data-toggle");
+              }
+    </script>
+    <script>
+$("#signin").on( "click", function() {
+        $('#login-model-section').modal('hide');  
+});
+//trigger next modal
+$("#signin").on( "click", function() {
+        $('#forget-model-sec').modal('show');  
+});   
+       </script>
+</body>
+</html>

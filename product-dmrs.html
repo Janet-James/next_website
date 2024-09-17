@@ -1,0 +1,1549 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <!-- 26-03-19 Version - 1.0-->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+     <title>NEXT Inc. Detainee Management</title>
+     <meta name="keywords" content="Detainee Management, Detainee, Prisoner, Release Management, Court Management, Case Management, Incident Managment"/>
+	 <meta name="description" content= "Detainee management module should be able to record the Detainee information, personal history of the prisoner, cell allotment, daily activity, and prisoner movement">
+	 <meta name="copyright" content="Next Techno Enterprise Pvt Ltd">
+	 <meta name="language" content="ES">
+	 <meta name="robots" content="index, follow" />
+	 <meta name="Classification" content="Digital Government Solutions, Product Solution, Deatinee Managment">
+	 <meta name="url" content="http://nexttechnosolutions.com/product-dmrs.html/">
+       <link rel="shortcut icon" href="images/favicon.png" />
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+       <link href="css/font-awesome.css" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
+      <link href="css/jquery.bxslider.css" rel="stylesheet">
+           <link rel="stylesheet" href="css/owl.carousel.min.css">
+       <link rel="stylesheet" href="css/owl.theme.default.min.css">
+       <link rel='stylesheet' href='css/fancy-box-slider.css'>
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link href="css/mainstyle.css" rel="stylesheet">
+
+      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body>
+      <div class="wrapper">
+         <!-- Sidebar Holder -->
+         <div class="menu-bg-out">
+            <nav id="sidebar">
+               <div class="menu-bg-img"></div>
+               <div id="dismiss"> 
+                   <div id="arrowAnimTop">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div> 
+                </div>
+           
+               <div class="sidebar-header"> </div>
+               <ul class="list-unstyled components">
+                  <li> <a href="index.html"><img src="images/menu-home.png" alt="Next Inc - Home Menu"><span class="menu-next">ext</span></a> </li>
+                  <li> <a href="who-we-are.html"><img src="images/menu-about.png" alt="Next Inc - Who We Are Menu">Who We Are</a> </li>
+                  <li> <a href="insight-digilog.html"><img src="images/menu-insight-and-inovation.png" alt="Next Inc - Insights and Digilog">Insights and Digilog</a> </li>
+                  <li>
+                     <a href="the-core.html"><img src="images/menu-prima.png" alt="Next Inc - The Core">The Core</a> 
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#core-collaps" aria-expanded="false" aria-controls="core-collaps"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="core-collaps">
+                        <li>
+                           <a href="digital-enterprise-solutions.html"><img src="images/menu-des.png" alt="Next Inc - Digital Enterprise Solutions">Digital Enterprise Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#des-collaps" aria-expanded="false" aria-controls="des-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="des-collaps">
+                              <li> <a href="lowcode.html"><img src="images/menu-lowcode.png" alt="Next Inc - Low Code Platform">Low Code Platform</a> </li>
+                               <li> <a href="transform.html"><img src="images/menu-tranform.png" alt="Next Inc - Transform Solution Suite">Transform Solution Suite</a> </li>
+                              <li> <a href="gis-digital-trasnformation.html"><img src="images/menu-geo.png" alt="Next Inc - GEO Spatial Solution">GEO Spatial Solution</a> </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="digital-infra-solutions.html"><img src="images/menu-dis.png" alt="Next Inc - Digital Infrastructure Solutions">Digital Infrastructure Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#dis-collaps" aria-expanded="false" aria-controls="dis-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="dis-collaps">
+                              <li> <a href="cloud-engineering.html"><img src="images/menu-cloud.png" alt="Next Inc - Platform">Platform</a> </li>
+                               <li> <a href="dis-product-list.html"><img src="images/menu-products.png" alt="Next Inc - Products">Products</a> </li>
+                              <li> <a href="service.html"><img src="images/menu-security.png" alt="Next Inc - Services">Services</a> </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="industry-verticals.html"><img src="images/menu-industrial.png" alt="Next Inc - Industry & Verticals">Industry &amp; Verticals</a>
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#indus-collapse"	 aria-expanded="false" aria-controls="indus-collapse"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="indus-collapse">
+                        <li> <a href="govt-sector.html"><img src="images/menu-goverment.png" alt="Next Inc - Government/Public">Government/Public</a> </li>
+                        <li> <a href="oil-gas-sector.html"><img src="images/menu-oil.png" alt="Next Inc - Oil & Gas">Oil &amp; Gas</a> </li>
+                        <li> <a href="trasnport.html"><img src="images/menu-transport.png" alt="Next Inc - Transportation & Logistics">Transportation &amp; Logistics</a> </li>
+                        <li> <a href="banking.html"><img src="images/menu-banking.png" alt="Next Inc - Banking & Financial Services">Banking &amp; Financial Services</a> </li>
+                        <li> <a href="healthcare.html"><img src="images/menu-healthcare.png" alt="Next Inc - Healthcare">Healthcare</a> </li>
+                        <li> <a href="renewable-energy.html"><img src="images/menu-reneweble.png" alt="Next Inc - Renewable Energy">Renewable Energy</a> </li>
+                        <li> <a href="agriculture.html"><img src="images/menu-agriculture.png" alt="Next Inc - Agriculture">Agriculture</a> </li>
+                     </ul>
+                  </li>
+                  <li> <a href="joinus.html"><img src="images/menu-joinus1.png" alt="Next Inc - Join Us">Join Us</a> </li>
+                  <li> <a href="reachus.html"><img src="images/menu-reach-us.png" alt="Next Inc - Reach Us">Reach Us</a> </li> 
+               </ul>
+            </nav>
+         </div>
+         <!-- Page Content Holder -->
+          <div id="mainmenu">
+            <nav class="navbar navbar-default pull-right">
+               <div class="navbar-header" onclick="changeimage()">
+                  <button type="button" id="sidebarCollapse" class="btn navbar-btn" >
+                      <img class="menu_image" src="images/logo1.png" alt="Next Inc - Logo">
+                     <span>ext</span>
+                  </button>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <div class="overlay"></div>
+      <div class="container-fluid content_wrapper">
+      <div class="row">
+         <div class="col-xl-2 col-sm-4 col-lg-3 bhoechie-tab-menu">
+            <div class="list-group">
+               <a href="#" class="list-group-item active text-centern side_menu_1">
+               <img alt="Next Inc - Detainee Management" src="images/dmrs-menu-detainee.png" class="hvr-icon cat-hvr-icon"> Detainee<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_2">
+               <img alt="Next Inc - Medical Management" src="images/dmrs-menu-medical.png" class="hvr-icon cat-hvr-icon"> Medical<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_3">
+               <img alt="Next Inc - Attendance Management" src="images/dmrs-menu-attendance.png" class="hvr-icon cat-hvr-icon"> Attendance<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_4">
+               <img alt="Next Inc - Release Management" src="images/dmrs-menu-release.png" class="hvr-icon cat-hvr-icon"> Release<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_5">
+               <img alt="Next Inc - Visitor Management" src="images/dmrs-menu-visitor.png" class="hvr-icon cat-hvr-icon"> Visitor<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_6">
+               <img alt="Next Inc - Grievance Management" src="images/dmrs-menu-grivance.png" class="hvr-icon cat-hvr-icon"> Grievance<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_7">
+               <img alt="Next Inc - Incident Management" src="images/dmrs-menu-incident.png" class="hvr-icon cat-hvr-icon"> Incident<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_8">
+               <img alt="Next Inc - Court Management" src="images/dmrs-menu-court.png" class="hvr-icon cat-hvr-icon"> Court<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_9">
+               <img alt="Next Inc - Case Management" src="images/dmrs-menu-case.png" class="hvr-icon cat-hvr-icon"> Case<br> Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_10">
+               <img alt="Next Inc - Property Management" src="images/dmrs-menu-property.png" class="hvr-icon cat-hvr-icon"> Property <br>Management
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_11">
+               <img alt="Next Inc - Watch List" src="images/dmrs-menu-watchlist.png" class="hvr-icon cat-hvr-icon"> Watch List
+               </a>
+               <a href="#" class="list-group-item text-centern side_menu_12">
+               <img alt="Next Inc - App Admin" src="images/our-solu-icon12.png" class="hvr-icon cat-hvr-icon"> App Admin
+               </a>
+         </div>
+         </div>
+         <div class="col-xl-10 col-sm-8 col-lg-9 bhoechie-tab">
+              <!-------set 1 ---------->
+            <div class="bhoechie-tab-content  no-scroll active">
+               <section>
+                  <div class="row">
+                     <div class="col-md-4 col-sm-12 txtjustify">
+                        <h3>DETAINEE MANAGEMENT</h3>
+                        <p>Detainee management module should be able to record the Detainee information, personal history of
+Detainees, information on associated Detainee, cell allotment, daily activity, operations details, and prisoner
+movement. It has functions for maintaining detainee info, cell allotment, detainee daily activity, detainee
+operation details, and prisoner movement and detainee reports.</p>
+                        <p>The detainee info management enables us to capture data through demographics, offense details, and identification details.</p>
+                        <div class="center-block text-center">
+                            <div class="prodct_spec row">
+                 <div class="col-lg-12 col-md-12">
+                     <div class="row">
+                      <div class="col-sm-11 padding-left-30 margin-bottom-50">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/Detainee_Management.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                     <div class="col-sm-12 col-md-12 col-xl-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/detainee_management_slider1.png" data-fancybox="images" class="side_menu_1_image">
+                                                    <img alt="Next Inc - DETAINEE MANAGEMENT" src="images/detainee_management_slider1.png" title="DETAINEE MANAGEMENT"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/detainee_management_slider2.png" data-fancybox="images" class="side_menu_1_image">
+                                                    <img alt="Next Inc - DETAINEE MANAGEMENT" src="images/detainee_management_slider2.png" title="DETAINEE MANAGEMENT"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                         <div class="text-center col-md-9"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                         </div>
+                                </div></div>
+                        </div>
+                     </div>
+                     <div class="col-md-8 col-sm-12">
+                         
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Detainee Report" src="images/dmrs1.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Detainee Report</h5>
+                        <p>The detainee report can be generated here. The Detainee report management enables us to view data and filter the detainees about based upon station and admission dates.</p>
+                             </div>
+                        </div>
+                           
+                        </div>
+                        <div class="product-content">
+                             <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Detainee Information" src="images/dmrs2.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Detainee Information</h5>
+                        <p>The detainee info management enables us to capture data through demographics, offense details, and identification details.</p>
+                             </div>
+                        </div>
+                           
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Cell Allotment Information" src="images/dmrs3.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Cell Allotment Information</h5>
+                        <p>The Cell Allotment info management enables us to capture data about detainee booking with the location, FIR number and much more about booking details.</p>
+                             </div>
+                        </div>
+                            
+            
+                        </div>
+                        <div class="product-content">
+                             <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Detainee Daily Activity" src="images/dmrs4.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Detainee Daily Activity</h5>
+                        <p>The Daily Activity management facilitates to capture data about detainee attendance with date, session, and status.</p>
+                             </div>
+                        </div>
+                          
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Detainee Operations Details" src="images/dmrs5.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Detainee Operations Details</h5>
+                        <p>Detainee operation detail tracks every task of the detainee with the status of completed or not completed. It also includes the details of the time period.</p>
+                             </div>
+                        </div>
+                          
+                    
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Prisoner Movement" src="images/dmrs6.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Prisoner Movement</h5>
+                        <p>The Prisoner Movement enables us to capture data about detainee’s movement based upon the category, date, and institution.</p>
+                             </div>
+                        </div>
+                          
+                         
+                        </div>
+                        
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <div class="bhoechie-tab-content  no-scroll">
+               <section>
+                  <div class="row">
+            <div class="col-md-8 col-sm-12">
+               <div class="prodct_spec">
+                  <!-- Media -->
+                        <h3>MEDICAL MANAGEMENT</h3>
+                        <p>Medical management allows the Prison Management to maintain the records on Medical screening activities during the new admission. The Prison Management has provision to upload the prior medical report and can update the medical screening process.</p>
+
+                <br>
+                  <!-- Media -->
+                  <div class="media wow fadeIn" >
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Medical Screening Info" src="images/dmrs7.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Medical Screening Info</h5>
+                        <p>Medical screening information captures all the detainee medical screening details. The medical screening information includes detainee name, administered by, screening start date, end date, screening status, and health status. It also has the option to upload medical reports and special diet instructions.</p>
+                     </div>
+                  </div>
+                  <!-- Media -->
+                  <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Medical Details" src="images/dmrs8.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Medical Details</h5>
+                        <p>Medical details capture all the detainee medical screening details with the screening details of aborted, critical etc. It facilitates to generate the screening status of each detainee.</p>
+                     </div>
+                  </div>
+                     <!-- Media -->
+                                  <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Initial Screening Assessment" src="images/Initial_Screening.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Initial Screening Assessment</h5>
+                        <p>Initial screening assessment encompasses to decide quickly based on medical screening of the detainees. This module facilitates to maintain the tenure of the medical screening period and medical administrator who is responsible for the medical screening process.</p>
+                     </div>
+                  </div>
+                     <!-- Media -->
+				                    <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Medical History & Questionnaires" src="images/medical_history.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Medical History & Questionnaires</h5>
+                        <p>Medical history is a vital part of medical management. Our module has been developed to enable the disease during medical screening and maintain the previous medical history of the detainees. Some of the mental health screening maintained such as shortness of breath, heart problem, ulcers, neurocognitive, kidney trouble, fracture, broken bones, addicted to drugs & alcohols, psychiatric care, trauma, and
+depressive. </p>
+                     </div>
+                  </div>
+                   
+               </div>
+            </div>
+                      <div class="col-md-4 col-sm-12 margin-top-20">
+                           <div class="col-lg-12">
+                     <div class="row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/medical_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/medical_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-md-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/medical_management_slider_v1.png" data-fancybox="images" class="side_menu_2_image">
+                                                    <img alt="Next Inc - Medical Management" src="images/medical_management_slider_v1.png" title="Medical Management"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/medical_management_slider_v2.png" data-fancybox="images" class="side_menu_2_image">
+                                                    <img alt="Next Inc - Medical Management" src="images/medical_management_slider_v2.png" title="Medical Management"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                         <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                         </div>
+                         
+               </div>
+                        
+                       
+                      </div>
+         </div>
+               </section>
+            </div>
+             
+             <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+               <div class="col-lg-8 col-sm-12">
+                  <div class="prodct_spec">
+                     <!-- Media -->
+                   
+                        <h3>ATTENDANCE MANAGEMENT</h3>
+                           <p>Detainee Attendance management allows the Prison/Jail Management to record the roll-out of Detainee
+                            attendance on a daily basis, for all sessions which may be routine attendance and special attendance too.
+                            Prison or Jail Management can Record the Attendance tracking time, date of Attendance tracking, Highlights
+                            the Detainee Presence in terms of Count, In charge Officer Name and Detainee Population count in
+                            Correctional Services.</p>
+                     <!-- Media -->
+                    
+                  </div>
+                    <div class="prodct_spec">
+                     <!-- Media -->
+                       <div class="media wow fadeIn">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Attendance Report" src="images/dmrs9.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Attendance Report</h5>
+                           <p>Attendance report captures the attendance details of the detainees. It includes the station name, from the
+date and to date of the detainee. By using the details, you can generate the reports of the detainees.</p>
+                        </div>
+                     </div>
+                     <div class="media wow fadeIn no-margin-bottom">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Attendance Info" src="images/dmrs10.png" class="media-object">
+                        </div>
+                        <div class="media-body centerimgtreetextheightright">
+                           <h5 class="media-heading">Attendance Info</h5>
+                           <p>The attendance information has two types- specific attendance and routine attendance. The attendance information includes the detainee name, attendance session, attendance status, remarks, and the discharge index.</p>
+                        </div>
+                     </div>
+                     <!-- Media -->
+                     <div class="media wow fadeIn">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Attendance Details View" src="images/dmrs11.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Attendance Details View</h5>
+                           <p>Attendance details view has the detainee operation details. It captures the details of attendance type, attendance session, attendance status, from and to date.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>   
+               <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/Attendance_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/Attendance_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-md-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/attendance_slider1.png" data-fancybox="images" class="side_menu_3_image">
+                                                    <img alt="Next Inc - ATTENDANCE MANAGEMENT" src="images/attendance_slider1.png" title="ATTENDANCE MANAGEMENT"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/attendance_slider2.png" data-fancybox="images" class="side_menu_3_image">
+                                                    <img alt="Next Inc - ATTENDANCE MANAGEMENT" src="images/attendance_slider2.png" title="ATTENDANCE MANAGEMENT"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                       
+               </div>
+               </div>
+            </div>
+                 </section>
+             </div>
+              <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+                       <div class="col-sm-12 col-lg-8">
+                     <!-- Media -->
+                                          <div>
+                           <h3>RELEASE MANAGEMENT</h3>
+                           <p>Releasing a detainee is time-consuming and requires sound planning to execute the onerous process. Plenty of work and pre-release preparations are involved in releasing a detainee. Releasing an inmate can be a daunting task for prison management to arrange things in a systematic way. NEXT, Release Management allows jail management to record and roll out the release procedures of detainees. <br><br>
+						   The module enables the users to access and enter the details with the reference to the court documents and period of imprisonment. Fingerprint verification is a mandatory process while a detainee exits the prison. A correctional officer or anyone who is authorized for the verification will be assigned to proceed with the process. The module includes fingerprint verification where the official can maintain the fingerprints under each detainee.</p>
+                        </div>
+                           <div class="col-md-12">
+                     <!-- Media -->
+                     <div class="media wow fadeIn">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Release Information" src="images/release_info.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Release Information</h5>
+                           <p>Release information is mandatory for the release of a prisoner for a seamless release operation. The significant information should contain the release details of the detainee including the details of booking type, release officer, booking date, planned release date time, cell location, actual release date time, block number, release type, cell number, release status, bed number, and jacket ID. All these relevant data are stored in secured applications which can be used for clear verification during the time of release.</p>
+                        </div>
+                     </div>
+                     <!-- Media -->
+                     <div class="media wow fadeIn">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Release Management Strategy" src="images/release_statergy.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Release Management Strategy</h5>
+                           <p>In order to ease the release process, a coherent strategy is essential for jail management. Our strategy gives immense insight into managing releases and legal matters. The officials are empowered with the necessary resources to conduct a holistic prison management system without compromising on security aspects.</p>
+                        </div>
+                     </div>
+                               <!-- Media -->
+                     <div class="media wow fadeIn">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Release planning" src="images/release_plan.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Release planning</h5>
+                           <p>During the course of a person's incarceration, the relationships, resources, and assessments are monitored and stored. Hence a minimal preparation of the documents is necessary prior to the prisoner's release. Pre-release assessments are done to make the process hassle-free. Release planning provides support after release including employment needs and physical & mental healthcare.</p>
+                        </div>
+                     </div>
+                  </div>
+                     
+                  </div>
+            <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/release_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/release_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-md-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div>
+                                            
+                                            <div class="item">
+                                                
+                                                    <img alt="Next Inc - RELEASE MANAGEMENT" src="images/release_management_slider_v2.png" title="RELEASE MANAGEMENT">
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                        
+               </div>
+               </div>
+            <div class="clearfix"></div>
+         </div>
+                  </section>
+             </div>
+             
+             <!-------set 2 ---------->
+              <div class="bhoechie-tab-content">
+               <section>
+                  <div class="row ">
+            <div class="col-sm-12 col-lg-8">
+               <div class="prodct_spec">
+                  <!-- Media -->
+                 
+                        <h3>VISITOR MANAGEMENT</h3>
+                        <p>The visitor’s module should facilitate the Prison/Management to maintain the records on Visitor Information
+                            and provides the facility to track the allowed and disallowed visitors for each Detainee, monitor how many
+                            visits and Detainee is allowed per day and per week. This module has information about each potential
+                            visitor. The initial potential visitor list is the list of relatives and associates collected during the intake and
+                            additional proposed visitors is added.</p>
+                   <br>
+          
+                  <!-- Media -->
+                  <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Visitor Details" src="images/dmrs13.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Visitor Details</h5>
+                        <p>Visitor details facilitate to capture the visitor information of the detainees. It includes visitor name, visitor
+                            relation type, national identification category, national identification number, regular in time and out,
+                            contact number and address.</p>
+                     </div>
+                  </div>
+                  <!-- Media -->
+                  <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Visit Details" src="images/visit.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Visit Details</h5>
+                        <p>Visit details will automatically populate the visitors and their allocated time to visit the detainee.</p>
+                     </div>
+                  </div>
+                    <!-- Media -->
+                   <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Allowed & Not allowed Details" src="images/allowed_not.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Allowed & Not allowed Details</h5>
+                        <p>To prevent the not allowed visitors are significant in jail. Hence, our module facilitates to maintain the details
+of the allowed and not allowed visitor details of the detainees.</p>
+                     </div>
+                  </div>                  
+                    <!-- Media -->
+                   <div class="media wow fadeIn">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Visitor History" src="images/visitor_history.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Visitor History</h5>
+                        <p>The visitor history of each detainee is maintained. The complete history of the visitors is captured using visitor history.</p>
+                     </div>
+                  </div>
+                   
+               </div>
+            </div>
+                       <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/visitor_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/visitor_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/visitor_management_slider_v1.png" data-fancybox="images" class="side_menu_5_image">
+                                                     <img alt="Next Inc - ISITOR MANAGEMENT" src="images/visitor_management_slider_v1.png" title="VISITOR MANAGEMENT"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/visitor_management_slider_v2.png" data-fancybox="images" class="side_menu_5_image">
+                                                     <img alt="Next Inc - ISITOR MANAGEMENT" src="images/visitor_management_slider_v2.png" title="VISITOR MANAGEMENT"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+         </div>
+               </section>
+            </div>
+               <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+<!--
+            <div class="wow fadeIn" data-wow-delay="0.3s">
+               <h3 class="text-center">Release Management</h3>
+               <span class="product-txt">Release information contains the release details of the detainee. It includes the details of booking type, release officer, booking date, planned release date time, cell location, actual release date time, block number, release type, cell number, release status, bed number and jacket ID.</span>
+            </div>
+-->
+            
+            <br>
+            <div class="col-sm-12 col-lg-8 prodct_spec">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- Media -->
+                     
+                           <h3>GRIEVANCE MANAGEMENT</h3>
+                           <p>The prime attribute for any successful prison system is maintaining accurate prison data and
+                                enable easy access. Prisons are established by international standards and constructed by local
+                                law, which will have profound regards for the law and human rights. Current prison system
+                                needs a high degree of automated system and cognizance. It is essential to identify the grievance
+                                of men and women prisoners. We should accept that a prison is a place where various types of
+                                human beings play a critical, so the prison management should function with righteous context.
+                                So if one part of the system is effected it will naturally affect the remaining process. The Prime
+                                concern would be to maintain ethical values and principles hand in hand with strict law and
+                                discipline. Prison management’s predominant core process is human management. When that’s
+                                the case issues raise might go beyond efficiency and effectiveness. Ethical behavior and legal
+                                behavior should not be muddled, but both are close concomitant. By which law and responsibility
+                                validate public organization. Grievance management module, allows the Prison or Jail
+                                Management to manage the raised Grievance and track the Detainee Grievance posted by the
+                                Prison Management for the approval. Prison official should be very cautious about each and
+                                every prisoner’s grievance and prisoner’s history. The Prison Management should have access for
+                                processing the Grievances in detailed and should be submitted to higher authority for further
+                                approval.</p>
+                      <p>At this process, data should be accurate for the higher officials to take action. Message field
+allows the user to elaborate the grievance reason. It allows the user to view the Grievance status
+as well. Some of the Issue categories are Medical care, Classification action, Event participation,
+Telephone use and visitation procedure, Officer Conduct, Food, clothing, and bedding.</p>
+
+                  </div>
+                  <div class="col-md-12">
+                     <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Grievance Information" src="images/dmrs15.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Grievance Information</h5>
+                           <p>On a daily basis, prison life becomes either sustainable or intolerable for any prisoner. So the
+officials should recognize and understand their grievance. Such prisoners should be actively
+engaged in some programs. A detailed grievance information report should be maintained in any
+circumstances. We cannot deny that prison officials are responsible for precise data on each
+prisons grievance details. This module allows the user to capture the details of the grievance
+category, action taken by, grievance status, lodged date, action date, and grievance summary.
+Detainees have access to apprehend their grievance information and ask for grievance status.</p>
+                        </div>
+                     </div>
+                      <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Grievance Redressal" src="images/grievance_redressal.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Grievance Redressal</h5>
+                           <p>It should not be forgotten that jail systems are a fundamentally hierarchical organization in which
+each and every one of them will have their duties in place. Most essentially all of them should be
+aware of their responsibilities and not overstep them. The complaints and grievances are
+promptly handled by the respective jail management. Detainees have the right to raise a
+grievance and complaint boxes are being installed in all prisons. Grievance redressal mechanism is framed as per the rules of the government. Detainees can track the status of their grievance and the management can also monitor the progression of each grievance redressal.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+                       <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/Grievance_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/Grievance_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div>
+                                            
+                                            <div class="item">
+                                                
+                                                    <img alt="Next Inc - GRIEVANCE MANAGEMENT" src="images/grievance_management_slide_v2.png" title="GRIEVANCE MANAGEMENT">
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+            <div class="clearfix"></div>
+         </div>
+                  </section>
+             </div>
+         
+             
+             <div class="bhoechie-tab-content">
+               <section>
+                    <div class="prodct_spec row">
+                 <div class="col-lg-4 col-md-12">
+                     <div class="row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/Incident_Management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/Incident_Management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-md-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                
+                                                    <img alt="Next Inc - INCIDENT MANAGEMENT" src="images/incident_management_slider1.png" title="INCIDENT MANAGEMENT">
+                                            </div>
+<!--
+                                            <div class="item">
+                                                <a href="images/incident_management_slider2.JPG" data-fancybox="images" class="side_menu_7_image">
+                                                    <img src="images/incident_management_slider2.JPG" title="INCIDENT MANAGEMENT"></a>
+                                            </div>
+-->
+                                          </div>
+                     </div>
+                         <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+                         </div>
+               </div>
+               <div class="col-lg-8 col-md-12">
+                  <div class="prodct_spec">
+                     <!-- Media -->
+                        
+                           <h3>INCIDENT MANAGEMENT</h3>
+                            <p>The predominant prison affairs from a security point of view are to the emphasis on maintaining discipline
+                            and follow orders on a daily basis. In certain situations, officials need to strengthen the control to avert
+                            prison incidents. An incident could cause disturbance or any kind of loss to the management’s functions.
+                            Major focus area would be strict discipline and control which will include specifications. Each of these has to
+                            be comprehended from a management perspective. Although prisons functions and services may vary from
+                            one another, powerful prison management will pave the way to effective operation.</p>
+                      <p>Incident management module, allows the Prison or Jail Management to record and manage the incidence
+                    and track the Detainee activities. This will help the authorities to have an in-depth view of each prisoner. Jail
+                    Management should have the provision for entering the Incident in a detailed manner and organized
+                    submission.</p>
+                      <p>This will help the authorities to keep a check on the misconduct prisoners. So these prisoners can be
+                        monitored accordingly at any situation. The Prison Management allows updating the incident occurred in a
+                        Narrative manner for better understanding.</p>
+                   
+                    
+                     <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Incident Information" src="images/dmrs16.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Incident Information</h5>
+                           <p>To efficiently direct the officers on their routines, maintaining strict orders and other organizational
+                                functions need to be in position. These functions will be refined further depending on the requirements such
+                                as their size, security level, and their activities. The detainee incident information is captured with the details
+                                of the detainee, incident type, incident number, the action is taken, incident trigger, incident location, date
+                                & time, witness, status and recommendations.</p>
+                        </div>
+                     </div>
+                       <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="3s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Incident Details View" src="images/dmrs17.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Incident Details View</h5>
+                           <p>Efficient prison management should allow users to structure and process the assessment internally and
+                                externally. By developing such a solution it will make prison service more transparent, credible and
+                                accountable for internal process. By which it can present detail and credible analysis report to their
+                                respective superiors. All these can be accomplished by an effective advanced search option which can pull
+                                invalid data from million of available records. The search option in the incident details enables to view the
+                                incidents of the detainee by using from and to date.</p>
+                        </div>
+                     </div>
+                    
+                     <!-- Media -->
+                  </div>
+               </div>
+                     
+             
+            </div>
+                 </section>
+             </div>
+               <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+<!--
+            <div class="wow fadeIn" data-wow-delay="0.3s">
+               <h3 class="text-center">Release Management</h3>
+               <span class="product-txt">Release information contains the release details of the detainee. It includes the details of booking type, release officer, booking date, planned release date time, cell location, actual release date time, block number, release type, cell number, release status, bed number and jacket ID.</span>
+            </div>
+-->
+            
+            <br>
+            <div class="col-lg-8 col-sm-12 prodct_spec">
+               <div class="row">
+                  <div class="col-md-12">
+                     <!-- Media -->
+                        
+                           <h3>COURT MANAGEMENT</h3>
+                           <p>The prime operation of a prison is prisoner’s custody. Security is the base for all the effort which will help in
+                                creating positive management. In the Prison System, there is a staggering number of people behind the bar.
+                                They have umpteen cases which include probations, incarceration, parole etc. Awareness on all these has to
+                                be the key focus for all the officials who are involved in the operations. When these cases are pending or in
+                                the trial, each of them has to be documented. NEXT provides essential solution for court management, from
+                                safe and secure operations of courts, escorting services and prison. We deliver effective court management
+                                which enables the users to track and record activities like prisons to the police station or court appearances
+                                and activities in court premises. Prison authorities should take necessary action to maintain strict control and
+                                order over notorious prisoners and they should equally look for vulnerable prisoners as well in court. Our
+                                solution aids in managing complicated detainee care and reinforce a dynamic system that is upright and
+                                transparent. NEXT manages escorting services reports which include court services, prison escort, fleet
+                                management details and command services from law enforcement.
+                            </p>
+                      <p>The Prison Management should have the ability to update the court sentence details either for Remand or
+                        Convicted Detainees. It helps to maintain the records of Detainee case details belong to respective Offense
+                        categories and the Court hearing along with Court Appearance date and time for the further hearing.</p>
+                            <p>
+                                The Prison Management should have provision to upload, view the court sentence, court hearing documents. Detainee case is handled by the Court; the Unique Court code can be mentioned. Prison Management has provision to add Location details of Court where Detainee has to be moved for a Court hearing or Court Sentence and Period of Imprisonment: Detainee is convicted, his Period of imprisonment
+                                can be maintained using from & to date.
+                      </p>
+                  </div>
+                  <div class="col-md-12">
+                     <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Court Information" src="images/dmrs18.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Court Information</h5>
+                           <p>Procedural and physical documentation are inevitable features. Report generation depends on each
+                                prisoner. So officials should be aware of all the updated record information. Court information module is a
+                                dynamic solution which provides qualitative analysis reports. This module facilitates to manage the court
+                                details of each detainee. It includes the details of detainee classification, FIR number, court name, court
+                                code, judge name, prosecutor name, appearing date, sentenced date, imprisonment start date, sentenced
+                                details, imprisonment period and imprisonment period units. By all these accurate information easily
+                                accessible prison officials can be more cautious, prevent delays and be more effective with the court
+                                proceedings and updates.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+                       <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/Court_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/Court_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div>
+                                            
+                                            <div class="item">
+                                               
+                                                    <img alt="Next Inc - COURT MANAGEMENT" src="images/court_management_slide_v2.png" title="COURT MANAGEMENT">
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+            <div class="clearfix"></div>
+         </div>
+                  </section>
+             </div>
+             
+             <!-------set 2 ---------->
+              <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+                       <div class="col-md-12">
+            <div class="wow fadeIn" data-wow-delay="0.3s">
+                
+               <span class="product-txt">The Prison Management should have the ability to update the court sentence details either for Remand or Convicted Detainees. It helps to maintain the records of Detainee case details belong to respective Offense categories and the Court hearing along with Court Appearance date and time for a further hearing. </span>
+            </div>
+            </div>
+            <br>
+            <div class="col-lg-12 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 col-lg-4 offset-lg-1 margin-bottom-50">
+                  <video height="200" controls>
+											<source src="images/video/DMRS/Case_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/Case_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                     <div class="col-sm-12 col-lg-4 offset-lg-1">
+                     <div>
+                                            
+                                            <div class="item">
+                                               
+                                                    <img alt="Next Inc - Case Management" src="images/case_management_slider_v2.png" title="Case Management">
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+            <br>
+            <div class="col-md-12 col-sm-12 prodct_spec">
+               <div class="row">
+                  <div class="col-md-6">
+                     <!-- Media -->
+                        
+                           <h3 class="media-heading">CASE MANAGEMENT</h3>
+                          
+                            <p>Case management, which allows the Prison or Jail Management to record and manage the case and
+track of the Case Details. It helps to maintain the records of Detainee case details belong to respective
+Offense categories and the Court hearing along with Court Appearance date and time for a further
+hearing.</p>
+                     
+                  </div>
+                  <div class="col-md-6">
+                     <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Case Information" src="images/dmrs19.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Case Information</h5>
+                           <p>Case information facilitates to capture the cases filed by each detainee. The details include case number,
+case stage, represented officer, hearing date, next hearing date, and court information.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+                  </section>
+             </div>
+            <div class="bhoechie-tab-content">
+               <section>
+                  <div class="row">
+            <div class="col-lg-8 col-sm-12">
+               <div class="prodct_spec">
+                  <!-- Media -->
+                     
+                        <h3>PROPERTY MANAGEMENT</h3>
+                        <p>Comprehensive property management is essential to manage and store the personal properties of a
+detainee. In order to prevent the detainee from doing further criminal acts and for the safety of other
+inmates & officers a proper understanding of this topic is necessary. This enables the admission and
+discharge officer to have a clear record of the inmate's personal belongings and to retain prohibited and
+unlawful properties. </p>
+                         <p>The module gives a fair insight into the list of items that are permitted and prohibited according to the
+law. Prisoners are allowed to keep some personal belongings in their cells. Each prisoner has a cell
+property allowance that is calculated with a points system. Excess items of authorized property may be
+stored for the prisoner.</p>
+                  <!-- Media -->
+                  <div class="media wow fadeIn" data-wow-delay="1s">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Property EDR View" src="images/property_edr.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Property EDR View</h5>
+                        <p>The property details of the detainee are captured. It includes the property type and details of the
+detainee. All the items of the detainee are recorded including the condition of the items, model, make
+and serial numbers. Valuable items such as jewelry, certificates, and credit cards are also recorded and
+kept in the locker room of the prison.</p>
+                     </div>
+                  </div>
+                   <!-- Media -->
+                  <div class="media wow fadeIn" data-wow-delay="2s">
+                     <div class="media-left media-top">
+                        <img alt="Next Inc - Prohibited and Unauthorized Property" src="images/dmrs20.png" class="media-object">
+                     </div>
+                     <div class="media-body">
+                        <h5 class="media-heading">Prohibited and Unauthorized Property</h5>
+                        <p>NEXT, Property Management module provides the right guidelines for the prohibited & unauthorized
+property to avoid security breach and to rigidly follow the legal aspects. Some property is controlled or
+prohibited. Drugs, money, weapons and mobile phones are totally prohibited. If any of these items are
+found inside the prison, arrangements are made to dispose of the prohibited and unauthorized items.
+Any form of contraband is prohibited and considered as a criminal offense if taken into the prison
+property.</p>
+                     </div>
+                  </div>
+                 
+               </div>
+            </div>
+                       <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/property_management.mp4" type="video/mp4">
+											<source src="images/video/DMRS/property_management.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div>
+                                            
+                                            <div class="item">
+                                               
+                                                    <img alt="Next Inc - PROPERTY MANAGEMENT" src="images/property_management_slider_v2.png" title="PROPERTY MANAGEMENT">
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+         </div>
+               </section>
+            </div>
+             
+           <div class="bhoechie-tab-content">
+               <section>
+                   <div class="row">
+                       <div class="col-lg-8 col-sm-12">
+                           <div class="col-md-12">
+                           <h3>WATCH LIST</h3>
+                            <p>Prison Management have to ceaselessly work to make sure stern law is maintained. At any uncertain
+circumstance, a prisoner might breach prison security, judiciary complex or any other custodial limits
+like escaping from official’s custody. This could happen for various reasons for a need to visit their
+family, to reconnect with their gang or if they cannot accept the sentencing. These bespeak risks involve
+comprehensive security classifications. Prison management should keep a check on all the possibilities
+and record each and every detail. Our prison management system enables secure prison environment
+by providing a combination of security features and management operational practices. This cautions
+prison officials to prevent any kind of outbreak or prisoner delinquency. In order to maintain security
+standards, it is obligatory to identify the probable breaches and maintain an effectual dynamic system.
+                                <br><br>
+                                Watch Lists module, allows the Prison Jail Management to capture and manage the reasons for
+monitoring detainees led due to escape or other illegal risk activities done inside Jail during their
+sentence period. In highly populated prisons high-risk prisoners have to be watched closely as the other
+prison population is high. This will give high-risk prisoners an easy chit to escape or start a riot within the
+prison.
+                               <br><br>
+                               So these detainees should be put on alert or they are placed on a watch list. They are constantly
+monitored under authorized surveillance. So this process has to be maintained in proper order. Data
+feed should be accurate and accessible in any sensitive situation.</p>
+                        </div>
+                            <div class="col-md-12">
+                     <!-- Media -->
+                     <div class="media wow fadeIn" data-wow-delay="1s">
+                        <div class="media-left media-top">
+                           <img alt="Next Inc - Watch List Information" src="images/dmrs21.png" class="media-object">
+                        </div>
+                        <div class="media-body">
+                           <h5 class="media-heading">Watch List Information</h5>
+                           <p>Risks may differ. This often reflects the internal and external administration and responding to
+unplanned incidences. Security classification is an indispensable aspect of prison life. In general, security
+depends on official’s alertness, their response and how they handle. For all these actions they would
+require an accurate data list to know about the status. Watch list information will help them retrieve the
+needed information from the given date.</p>
+                        </div>
+                     </div>
+                  </div>
+                        </div>
+            
+                 
+                   
+                   <div class="col-lg-4 col-sm-12 margin-top-20">
+                   <div class="prodct_spec row">
+                      <div class="col-sm-11 padding-left-30">
+                  <video height="240" controls>
+											<source src="images/video/DMRS/watch_lists.mp4" type="video/mp4">
+											<source src="images/video/DMRS/watch_lists.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+                     </div>
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/watchlist-slider-1.png" data-fancybox="images" class="side_menu_11_image">
+                                                    <img alt="Next Inc - Watch List" src="images/watchlist-slider-1.png" title="WATCH LISTS"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/watchlist-slider-2.png" data-fancybox="images" class="side_menu_11_image">
+                                                    <img alt="Next Inc - Watch List" src="images/watchlist-slider-2.png" title="WATCH LISTS"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                       <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+               </div>
+               
+            
+            <div class="clearfix"></div>
+         </div>
+                  </section>
+             </div>
+              <div class="bhoechie-tab-content">
+               <section>
+                  <div class="row">
+                     <div class="col-md-5 col-sm-12 txtjustify">
+                        <h3>APP ADMIN</h3>
+                        <p>App Admin enables System Configuration and Setup. User Activation, Access Control Setup, Menu
+configuration can be done in a single place. Herein the Master Data Setup and Management is handled
+With User option, User Groups can be created for mapping roles and User Registration, Activation and
+Management can be done.</p>
+                        <div class="center-block text-center">
+                            <div class="prodct_spec row">
+                         <div class="col-sm-12" style="height: 50px;"></div>
+                     <div class="col-sm-12">
+                     <div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/app_admin_Slider_v1.png" data-fancybox="images" class="side_menu_12_image">
+                                                    <img alt="Next Inc - App Admin" src="images/app_admin_Slider_v1.png" title="APP ADMIN"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/app_admin_Slider_v2.png" data-fancybox="images" class="side_menu_12_image">
+                                                    <img alt="Next Inc - App Admin" src="images/app_admin_Slider_v2.png" title="APP ADMIN"></a>
+                                            </div>
+                                          </div>
+                     </div>
+                                <div class="text-center col-md-12"  style="display:none;">
+										<button type="button" class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+               </div>
+                        </div>
+                     </div>
+                     <div class="col-md-7 col-sm-12">
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Configuration" src="images/dmrs22.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Configuration</h5>
+                        <p>Master data configuration for Alert and Notification, Reference Items Management & Countries. In
+Configuration, the notification and alert messages can be set up and the dropdown options can also be
+configured using the reference items. Bulk data upload using .csv type files.</p>
+                             </div>
+                        </div>
+                           
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - User" src="images/dmrs23.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">User</h5>
+                        <p>With User option, User Groups can be created for mapping roles and User Registration, Activation and
+Management can be done.</p>
+                             </div>
+                        </div>
+                        
+                        </div>
+                        <div class="product-content">
+                             <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Access Control" src="images/dmrs24.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Access Control</h5>
+                        <p>Access control with master data of Menus & Pages. With Access Control, the edit, view, add and delete
+access can be defined for each role. </p>
+                             </div>
+                        </div>
+                        
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Cell Allotment Mapping" src="images/dmrs25.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Cell Allotment Mapping</h5>
+                        <p>The cell allotment mapping can be done with the block number, cell number, and cell bed number
+mapping.</p>
+                             </div>
+                        </div>
+                        </div>
+                        <div class="product-content">
+                            <div class="media wow fadeIn" >
+                                <div class="media-left media-top">
+                        <img alt="Next Inc - Detainee Configuration" src="images/dmrs26.png" class="media-object">
+                                </div>
+                            <div class="media-body">
+                        <h5 class="media-heading">Detainee Configuration</h5>
+                        <p>The detainee configuration can be done with institution details, movement type subcategory, crime
+category, prisoner crime, and station information.</p>
+                             </div>
+                        </div>
+                           
+                            
+                        </div>
+                        
+                        
+                     </div>
+                  </div>
+               </section>
+            </div>
+             
+             
+             
+            
+         </div>
+          
+      </div>
+          
+      </div>
+      <div class="footer-wrap">
+         <div class="page-logo">
+            <a href="index.html" class="logo-default">
+            <img alt="Next Logo" src="images/nlogo.png">
+            </a>
+         </div>
+         <h1 class="pagehead">DMRS</h1>
+          <div class="login-sec-icon"><a href="#" data-toggle="modal" data-target="#login-model-section"><img src="images/cses-login-icon.png" alt="Next Inc - Login"></a></div>
+         <div class="flip-logo1"></div>
+          <div class="text-right back-to-btn">
+              <a href="transform.html" style="color: #000;">
+                Back to Transform 
+                  <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+              </a>
+          </div>
+          <div id='toTop'> 
+            <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+          </div>
+      </div>
+       
+        <!-- CSES Login Page Model Popup -->
+<div class="modal fade" id="login-model-section" tabindex="-1" role="dialog" aria-labelledby="login-model-section" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Login</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            <div class="form-group">
+               <label for="lpwd">Password <span class="monitary">*</span></label>
+               <input type="password" class="form-control" id="lpwd" name="lpwd" placeholder="Enter Your Password" minlength="8" maxlength="15" data-error=".errorTxt102" required="">
+            </div>
+            <div class="form-group">
+            <a href="#" class="forgot_password candidate_forgot" id="signin">Forgot Password</a>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-eql-wid btn-animate" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Login Page Model Popup --> 
+       
+        <!-- CSES Forget Password Model Popup -->
+<div class="modal fade" id="forget-model-sec" tabindex="-1" role="dialog" aria-labelledby="forget-model-sec" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="forgot_password">Forgot Password</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Forget Password Model Popup --> 
+       
+      <!-- jQuery plugins -->
+      <script src="js/jquery.min.js"></script>
+       <script src="js/bootstrap.min.js"></script> 
+       <!-- Font Awesome 5 plugins -->        
+       <script src="fonts/fontawesome-free-5.7.2-web/js/all.js"></script>      
+       <!-- Font Awesome 5 plugins -->
+      <!-- Animate jQuery plugins -->
+      <script src="js/wow.min.js"></script>
+      <script>
+         new WOW().init();
+      </script>
+      <!-- Slider plugins -->
+      <script src="js/jquery.bxslider.js"></script>
+      <script>
+         $(document).ready(function(){
+               $('.bxslider').bxSlider();
+             });
+      </script>
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script>
+          var fancyBoxClass = 'side_menu_1';
+         $(document).ready(function () {
+                         $("#sidebar").mCustomScrollbar({
+                             theme: "minimal"
+                         });
+         
+                         $('#dismiss, .overlay').on('click', function () {
+                             $('#sidebar').removeClass('active');
+                             $('.overlay').fadeOut();
+                         });
+         
+                         $('#sidebarCollapse').on('click', function () {
+                             $('#sidebar').addClass('active');
+                             $('.overlay').fadeIn();
+                             $('.collapse.in').toggleClass('in');
+                             $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                         });
+             });
+          
+            var margin_top_px = '100px';
+        $( window ).resize(function(e) {
+            var width = $(window).width();
+            var height = $(window).height();
+            if(width < 600){
+               
+                margin_top_px = '100px';
+            }else{
+                margin_top_px = '160px';
+                
+            }
+            
+        });
+        $(window).trigger('resize');
+          
+        $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
+         fancyBoxClass = this.className.match(/[\w-]*side[\w-]*/g)[0]
+         e.preventDefault();
+         fancybox_image_filter();
+         $(".text-centern").removeAttr("style");
+         $(this).siblings('a.active').removeClass("active");
+         $(this).addClass("active");
+         var index = $(this).index();
+            if (index==0) {
+                $(".text-centern").removeAttr("style");
+            } else if (index==1){
+                var sec_index = index+2;
+                $("div.bhoechie-tab-menu div.list-group>a:nth-child("+sec_index+")").css("margin-top", margin_top_px);
+            } else {
+                var sec_index = 2;
+                $("div.bhoechie-tab-menu div.list-group>a:nth-child("+sec_index+")").css("margin-top", margin_top_px);
+            }
+         $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
+         $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
+         });
+                   
+           //Firefox
+         $('div.bhoechie-tab-menu>div.list-group>').bind('DOMMouseScroll', function(e){
+             if(e.originalEvent.detail > 0) {
+                $('div.bhoechie-tab-menu>div.list-group>a.active').next().trigger('click'); 
+                 
+             }else {
+                 //scroll up
+              $('div.bhoechie-tab-menu>div.list-group>a.active').prev().trigger('click'); 
+             }
+             //prevent page fom scrolling
+             return false;
+         });
+
+         //IE, Opera, Safari
+         $('div.bhoechie-tab-menu>div.list-group>').bind('mousewheel', function(e){
+             if(e.originalEvent.wheelDelta < 0) {
+                $('div.bhoechie-tab-menu>div.list-group>a.active').next().trigger('click'); 
+            }else {
+                 $('div.bhoechie-tab-menu>div.list-group>a.active').prev().trigger('click'); 
+             }
+             //prevent page fom scrolling
+             return false;
+         });
+                    
+      </script>
+       <script>
+       $(document).on("click", ".bhoechie-tab-menu a", function(){
+          var cith_height = $(".centerimgtreetextheight").height();
+           $(".centerimgtreetextheightright").css("height",cith_height);
+       });
+       </script>
+        <script src="js/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+          </script>
+       <!-- Script for menu logo icon change 05-03-2019 (Mathi)-->
+       <script>
+      $(document).ready(function(){
+          $(".navbar-header").trigger("click");
+      });
+        
+        function changeimage(){
+            setInterval(function(){  
+                
+            var logo_src = $(".menu_image").attr("src");
+                
+                
+              if(logo_src == "images/logo1.png") { 
+                  $(".menu_image").attr("src", "images/logo2.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+              else {
+                  $(".menu_image").attr("src", "images/logo1.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+            
+            }, 2000);}
+
+    </script>
+  <script src='js/fancy-box-slider.js'></script>
+       <script>
+        function fancybox_image_filter(){
+            //   console.log("-----------------------------",fancyBoxClass)
+        selectorClass = '.owl-item:not(.cloned) .'+fancyBoxClass+'_image';
+        console.log('-6dsfsdf54654--',selectorClass)
+        $().fancybox({
+       //   selector : '.owl-item:not(.cloned)',
+         selector : selectorClass,
+          hash   : false,
+          thumbs : {
+            autoStart : true
+          },
+          buttons : [
+            'zoom',
+            'download',
+            'close'
+          ]
+        });
+           }
+           fancybox_image_filter();
+       </script>
+       <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+
+        $("#toTop").click(function () {
+           //1 second of animation time
+           //html works for FFX but not Chrome
+           //body works for Chrome but not FFX
+           //This strange selector seems to work universally
+           $("html, body").animate({scrollTop: 0}, 1000);
+        });
+       </script>
+       <script>
+$("#signin").on( "click", function() {
+        $('#login-model-section').modal('hide');  
+});
+//trigger next modal
+$("#signin").on( "click", function() {
+        $('#forget-model-sec').modal('show');  
+});   
+       </script>
+   </body>
+</html>

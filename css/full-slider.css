@@ -1,0 +1,132 @@
+/*!
+ * Start Bootstrap - Full Slider (https://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+.carousel{position: relative;}
+.carousel-item {
+  height: 95vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-indicators {left: unset;
+    right: 30px;
+    margin: 0px;
+    bottom: 120px;
+    display: block;}
+.carousel-indicators li {    background-color: #d4e6fd;margin: 0px;    display: block;
+    width: 3px;
+    height: 30px;}
+.carousel-indicators .active {background-color: #3f8ffa;}
+.carousel-control-prev {display: none;}
+.carousel-control-next {display: none;}
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; transition: 0.5s;
+
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+    transition: 0.5s;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.item:nth-child(1) {
+  background: #74c390;
+}
+.item:nth-child(2) {
+  background: #51bce8;
+}
+.item:nth-child(3) {
+  background: #e46653;
+}
+.nextcolorlogo {
+    position: absolute;
+    bottom: -32px;
+    z-index: 1;
+}
+.nextcolorlogo img {width:100%;}
+
+.rpanelcontent  {    text-align: center;
+    position: relative;
+    top: 35px;
+    left: 120px;}
+.rpanelcontent .broadimg {/*width:94%;*/text-align: center;}
+.rpanelcontent h4 {font-size: 28px;color:#000;font-weight: normal;    margin-top: 30px;}
+.rpanelcontent h4 span{color:#016eff;}
+.rpanelcontent h1 {font-size: 70px;color:#016eff;font-weight: bold;    margin-top: 40px;}
+.rpanelcontent h1 span{color:#000;font-weight: normal;font-size: 24px;}
+
+
+.iconwrapper {position: absolute;z-index:1;top:0px;}
+.iconbox {position: absolute;}
+.iconbox:nth-child(1) {top: 30px;left: 90px;width: 141px;height: 161px;}
+.iconbox:nth-child(1) .childicon{position: absolute;top: 88px;left: 68px;}
+
+.iconbox:nth-child(2) {top: 150px;left: -10px;width: 182px;height:159px;}
+.iconbox:nth-child(2) .childicon{position: absolute;top: 88px;left: 115px;}
+
+.iconbox:nth-child(3) {top: 320px;left: 70px;width: 107px;height: 97px;}
+.iconbox:nth-child(3) .childicon{position: absolute;top: 55px;left: 73px;}
+
+.iconbox:nth-child(4) {top: 350px;left: 180px;width: 150px;height: 137px;}
+.iconbox:nth-child(4) .childicon{position: absolute;top: 63px;left: 88px;}
+
+.iconbox:nth-child(5) {top: 257px;left: 273px;width: 182px;height: 159px;}
+.iconbox:nth-child(5) .childicon{position: absolute;top: 89px;left: 115px;}
+
+.iconbox:nth-child(6) {top: 457px;left: 132px;width: 67px;height: 59px;}
+.iconbox:nth-child(6) .childicon{position: absolute;top: 27px;left: 39px;}
+
+.iconbox:nth-child(7) {top: 215px;left: 205px;width: 86px;height: 76px;}
+.iconbox:nth-child(7) .childicon{position: absolute;top: 38px;left: 51px;}
+
+.iconbox:nth-child(8) {top: 50px;left: 220px;width: 101px;height: 84px;}
+.iconbox:nth-child(8) .childicon{position: absolute;top: 44px;left: 69px;}
+
+.iconbox:nth-child(9) {top: 390px;left: 410px;width: 101px;height: 84px;}
+.iconbox:nth-child(9) .childicon{position: absolute;top: 44px;left: 67px;}
+
+.iconbox:nth-child(10) {top: 150px;left: 330px;width: 127px;height: 110px;}
+.iconbox:nth-child(10) .childicon{position: absolute;top: 59px;left: 82px;}
+
+.footerwrapper {position: fixed;bottom:0px;width:100%;background: #fff;}
+
+.minimenubar {margin:0px;padding: 0px;}
+.minimenubar li {display: inline-block;list-style: none;font-size: 16px;color:#000; margin: 12px 10px 0px 15px;}
+
+.fliplogos {float:right;margin:0px;padding: 0px;}
+.fliplogos li {display: inline-block;list-style: none;font-size:18px;color:#000;margin:0px;}
+.fliplogos li:first-child img {width:110px;opacity:0.6;}
+
+
+.pull-right {
+    float: right!important;
+}
+.menuwrapper {position:fixed;top:0px;right:0px;}

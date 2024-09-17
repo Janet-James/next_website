@@ -1,0 +1,36 @@
+
+/*#pointer-dot {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 4px solid #abda30 !important;
+    position: absolute;
+    border-radius: 4px;
+    z-index: 99;
+    pointer-events: none;
+    transition: border-color 0.5s;
+}
+
+#pointer-ring {
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    padding: 15px;
+    border: 2px solid #00a44a !important;
+    position: absolute;
+    border-radius: 100px;
+    z-index: 999;
+    pointer-events: none;
+}
+
+html {
+    cursor: none !important;
+}
+
+a {
+    cursor: none !important;
+}
+
+*:hover, a:hover, img:hover { border: none !important; cursor: none !important;  text-decoration: none !important; }*/

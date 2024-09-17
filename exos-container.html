@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 26-03-19 Version - 1.0-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>NEXT Inc. EXOS- Container</title>
+     <meta name="keywords" content="EXOS Container, Container"/>
+	 <meta name="description" content= "EXOS Container Dashboard provides a bird’s eye view of the Container Deployment of an Enterprise. Docker containers have revolutionized the way applications are packaged">
+	 <meta name="copyright" content="Next Techno Enterprise Pvt Ltd">
+	 <meta name="language" content="ES">
+	 <meta name="robots" content="index, follow" />
+	 <meta name="Classification" content="Digital Infrastructure Solutions, Product Solution, Enterprise solution">
+	 <meta name="url" content="http://nexttechnosolutions.com/exos-container.html/">
+    <link rel="shortcut icon" href="images/favicon.png" />
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/jquery.bxslider.css" rel="stylesheet">
+<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel='stylesheet' href='css/fancy-box-slider.css'>
+    <link href="css/mainstyle.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+         <!-- Sidebar Holder -->
+         <div class="menu-bg-out">
+            <nav id="sidebar">
+               <div class="menu-bg-img"></div>
+               <div id="dismiss"> 
+                   <div id="arrowAnimTop">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div> 
+                </div>
+           
+               <div class="sidebar-header"> </div>
+               <ul class="list-unstyled components">
+                  <li> <a href="index.html"><img src="images/menu-home.png" alt="Next Inc - Home Menu"><span class="menu-next">ext</span></a> </li>
+                  <li> <a href="who-we-are.html"><img src="images/menu-about.png" alt="Next Inc - Who We Are Menu">Who We Are</a> </li>
+                  <li> <a href="insight-digilog.html"><img src="images/menu-insight-and-inovation.png" alt="Next Inc - Insights and Digilog">Insights and Digilog</a> </li>
+                  <li>
+                     <a href="the-core.html"><img src="images/menu-prima.png" alt="Next Inc - The Core">The Core</a> 
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#core-collaps" aria-expanded="false" aria-controls="core-collaps"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="core-collaps">
+                        <li>
+                           <a href="digital-enterprise-solutions.html"><img src="images/menu-des.png" alt="Next Inc - Digital Enterprise Solutions">Digital Enterprise Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#des-collaps" aria-expanded="false" aria-controls="des-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="des-collaps">
+                              <li> <a href="lowcode.html"><img src="images/menu-lowcode.png" alt="Next Inc - Low Code Platform">Low Code Platform</a> </li>
+                               <li> <a href="transform.html"><img src="images/menu-tranform.png" alt="Next Inc - Transform Solution Suite">Transform Solution Suite</a> </li>
+                              <li> <a href="gis-digital-trasnformation.html"><img src="images/menu-geo.png" alt="Next Inc - GEO Spatial Solution">GEO Spatial Solution</a> </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="digital-infra-solutions.html"><img src="images/menu-dis.png" alt="Next Inc - Digital Infrastructure Solutions">Digital Infrastructure Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#dis-collaps" aria-expanded="false" aria-controls="dis-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="dis-collaps">
+                              <li> <a href="cloud-engineering.html"><img src="images/menu-cloud.png" alt="Next Inc - Platform">Platform</a> </li>
+                               <li> <a href="dis-product-list.html"><img src="images/menu-products.png" alt="Next Inc - Products">Products</a> </li>
+                              <li> <a href="service.html"><img src="images/menu-security.png" alt="Next Inc - Services">Services</a> </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="industry-verticals.html"><img src="images/menu-industrial.png" alt="Next Inc - Industry & Verticals">Industry &amp; Verticals</a>
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#indus-collapse"	 aria-expanded="false" aria-controls="indus-collapse"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="indus-collapse">
+                        <li> <a href="govt-sector.html"><img src="images/menu-goverment.png" alt="Next Inc - Government/Public">Government/Public</a> </li>
+                        <li> <a href="oil-gas-sector.html"><img src="images/menu-oil.png" alt="Next Inc - Oil & Gas">Oil &amp; Gas</a> </li>
+                        <li> <a href="trasnport.html"><img src="images/menu-transport.png" alt="Next Inc - Transportation & Logistics">Transportation &amp; Logistics</a> </li>
+                        <li> <a href="banking.html"><img src="images/menu-banking.png" alt="Next Inc - Banking & Financial Services">Banking &amp; Financial Services</a> </li>
+                        <li> <a href="healthcare.html"><img src="images/menu-healthcare.png" alt="Next Inc - Healthcare">Healthcare</a> </li>
+                        <li> <a href="renewable-energy.html"><img src="images/menu-reneweble.png" alt="Next Inc - Renewable Energy">Renewable Energy</a> </li>
+                        <li> <a href="agriculture.html"><img src="images/menu-agriculture.png" alt="Next Inc - Agriculture">Agriculture</a> </li>
+                     </ul>
+                  </li>
+                  <li> <a href="joinus.html"><img src="images/menu-joinus1.png" alt="Next Inc - Join Us">Join Us</a> </li>
+                  <li> <a href="reachus.html"><img src="images/menu-reach-us.png" alt="Next Inc - Reach Us">Reach Us</a> </li> 
+               </ul>
+            </nav>
+         </div>
+         <!-- Page Content Holder -->
+          <div id="mainmenu">
+            <nav class="navbar navbar-default pull-right">
+               <div class="navbar-header" onclick="changeimage()">
+                  <button type="button" id="sidebarCollapse" class="btn navbar-btn" >
+                      <img class="menu_image" src="images/logo1.png" alt="Next Inc - Logo">
+                     <span>ext</span>
+                  </button>
+               </div>
+            </nav>
+         </div>
+      </div>
+	<div class="overlay"></div>
+	<div class="container-fluid content_wrapper">
+		<h1>EXOS - Container</h1>
+		<div class="row vertical-align">
+			<div class="col-xl-2 col-lg-12 col-md-12">
+				<div class="all-wheel-part-sec">
+					<div class="top-wheel-rotation rotate-animation"></div>
+					<div class="outer-wheel rotate-animation"></div>
+					<div class="inner-wheel-text-bx">
+						<p>EXOS</p>
+					</div>
+					<!--                 <div class="outer-rotate-div">-->
+					<ul class="exos-circle-rotation circle-rotation rotate-animation" id="rotate_menu">
+						<li class="wheel_part-color1">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Dashboard" src="images/menu-dashboard-la.png"><div class="pro-cir-name">Dashboard</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color2">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Application Stack <br>Visibility" src="images/menu-application%20stack-la.png"><div class="pro-cir-name">Application <br>Stack <br>Visibility</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color3">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - CI/CD pipeline" src="images/menu-pipeline-la.png"><div class="pro-cir-name">CI/CD<br> pipeline</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color4">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Private Registry" src="images/menu-private%20registry-la.png"><div class="pro-cir-name">Private<br> Registry</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color5">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Catalog" src="images/menu-catalog-la.png"><div class="pro-cir-name">Catalog</div></a>
+							</div>
+						</li>
+						<li class="wheel_part-color6">
+							<div class="text">
+								<a href="#"><img alt="Next Inc - Prometheus Auto scaling & monitoring" src="images/menu-auto%20scale%20&%20monitoring-la.png"><div class="pro-cir-name">Prometheus <br>Auto <br>scaling<br>& monitoring</div></a>
+							</div>
+						</li>
+						
+					</ul>
+					<!--                     </div>-->
+					<div class="bottom-wheel-rotation rotate-animation"></div>
+				</div>
+			</div>
+			<div class="col-xl-10 col-lg-12 col-md-12 bhoechie-tab">
+				<div class="bhoechie-tab-content no-scroll active">
+					<section>
+						<div class="row">
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+								<div class="prodct_spec">
+                                    <h3>DASHBOARD</h3>
+									<p>Docker containers and their usage have revolutionized the way applications and the underlying operating
+                                        system are packaged and deployed to development, testing, and production systems. </p>
+									<p>The Platform is an integrated software/hardware providing distributed compute, storage and the network
+                                        allowing the organization to consume the infrastructure in a more efficient, agile, self-serving manner</p>
+									<p>EXOS Container Dashboard provides a bird’s eye view of the Container Deployment of an Enterprise.</p>
+									<div class="prodct_spec_media">
+                                        
+                                        <p>The dashboard provides a Holistic Snapshot of Container Deployment. It lists the Top 5 Environment (Dev,
+                                            QA, Prod etc) which require immediate Intervention. Each Environment provides isolation of resources
+                                            (docker host, container) and allocation of these resources to Users and Groups from Other Environment.</p>
+                                        <p>The Dashboard also lists the Top 5 Docker Host which requires immediate attention. It also provides real-time charts of Top Containers in terms of CPU, Memory. It also provides a Timeline distribution of Host Status</p>
+                                        <p>The information Labels provides the bird's eye view of the numerical context of the Environment, Host,
+                                            Volume, Registry, Services as well as Containers. The dashboard will show only the information in context to
+                                            the user logged. Thus this information is context specific.</p>
+										
+									</div>
+									<br>
+									
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/Dashboard.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/Dashboard.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+
+										<div class="owl-carousel owl-theme">
+											<div class="item">
+                                                 <a href="images/exos-screens/dashboard_env_with_charts.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                     <img alt="Next Inc - DASHBOARD" src="images/exos-screens/dashboard_env_with_charts.png" title="DASHBOARD"></a>
+											</div>
+											<div class="item">
+                                                 <a href="images/exos-screens/dashboard_with_charts.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                     <img alt="Next Inc - DASHBOARD" src="images/exos-screens/dashboard_with_charts.png" title="DASHBOARD"></a>
+											</div>
+											<div class="item">
+                                                 <a href="images/exos-screens/dashboard1.png" data-fancybox="images" class="wheel_part-color1_image">
+                                                     <img alt="Next Inc - DASHBOARD" src="images/exos-screens/dashboard1.png" title="DASHBOARD"></a>
+											</div>
+										</div>
+
+									</div>
+                                    
+									<div class="text-center col-md-12" style="display:none;">
+                                        <br>
+                                    <br>
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+				<div class="bhoechie-tab-content no-scroll ">
+					<section>
+                        
+						<div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/Application_Stack.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/Application_Stack.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+										<div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/exos-screens/stack1.png" data-fancybox="images" class="wheel_part-color2_image">
+                                                    <img alt="Next Inc - APPLICATION STACK VISIBILITY" src="images/exos-screens/stack1.png" title="APPLICATION STACK VISIBILITY"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/exos-screens/stack2.png" data-fancybox="images" class="wheel_part-color2_image">
+                                                    <img alt="Next Inc - APPLICATION STACK VISIBILITY" src="images/exos-screens/stack2.png" title="APPLICATION STACK VISIBILITY"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/exos-screens/stack3.png" data-fancybox="images" class="wheel_part-color2_image">
+                                                    <img alt="Next Inc - APPLICATION STACK VISIBILITY" src="images/exos-screens/stack3.png" title="APPLICATION STACK VISIBILITY"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+                                <h3>APPLICATION STACK VISIBILITY</h3>
+								<div class="prodct_spec">
+									<p>A stack is a group of services. Stacks can be used to group together services that together implement an application. It defines a basic service as one or more containers created from the same image.</p>
+									<p>Once a service (consumer) is linked to another service (producer) within the same stack, a DNS record mapped to each container instance is automatically created and discoverable by containers from the “consuming” service. </p>
+									<p>A container is a standard unit of software that packages up the code and all its dependencies so the application runs quickly and reliably from one computing environment to another.</p>
+									<p>The EXOS Platform provides an option to define Application in terms of Docker-Compose format. An application is defined by a Docker-compose and an exos-compose file and can be deployed easily with the default configurations. The Stack will contain a set of Services (like Web Service, DB Service). Each Service contains one or more containers. The EXOS Container Platform will provide complete visibility at the Stack level, or at the service level abstraction or at the container level abstraction.</p>
+                                    <p>The Application Stack Visibility will assist the developer in looking at the right service for their debugging as well as their development. The Stack page would categorize the information both in terms of Services or in terms of the containers. So the User will be able to view the application either as a set of services or as a set of containers and can take appropriate actions.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row">
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+								<div class="prodct_spec">
+                                    <h3>CI/CD PIPELINE</h3>
+                                    <p>Continuous integration is a combination of philosophy, practices driving the development teams to
+                                        implement small chunks of code changes and check in code to version control repositories frequently.</p>
+
+                                    <p>The technical goal of CI is to establish a consistent and automated way to build, package, and test
+                                    applications. With consistency in the integration process in place, teams are more likely to commit code
+                                    changes more frequently, which lead to better collaboration and software quality.</p>
+
+                                    <p>Continuous delivery picks up where continuous integration ends. CD automates the delivery of applications
+                                        to selected infrastructure environments. Most teams work with multiple environments other than the
+                                        production, such as development and testing environments, and CD ensures there is an automated way to
+                                        push code changes to them. CI/CD bridges the gap between development and operations teams by
+                                        automating build, test, and deployment of applications.</p>
+                                    <p>Jenkins is a cross-platform, continuous integration and continuous delivery application that can be used to
+                                        build and test your software projects continuously making it easier for developers to integrate changes to
+                                        the project, and making it easier for users to obtain a fresh build, which in turn increases your productivity.
+                                        When you are working on a number of projects which get built on a regular basis or want to run multiple
+                                        jobs or might need several different environments to test your builds, then a single Jenkins server cannot
+                                        simply handle the entire load. To address the above-stated needs, Jenkins distributed architecture was
+                                        introduced. Jenkins uses a Master-Slave architecture to manage distributed builds.</p>
+									 
+									<p>The EXOS Container Platform can be used to provide the complete CI/CD Pipeline setup assisting the DevOps. Any Code Pushed to the Source Version Control (like GIT), gets automatically pulled by the CI Engine (like Jenkins). </p>
+									<p>The Jenkins Integrator is a Master-Slave configured. The Jenkins Master will build the Docker Image in one of
+                                        the available Jenkins Slave and then pushes the Image to the Private Registry. It then instructs the EXOS
+                                        Container Platform to pull the latest version of the docker image from the registry. Changes can be reviewed
+                                        and can be rolled back in case it doesn't serve the purpose correctly.</p>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/Jenkins_CI_CD.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/Jenkins_CI_CD.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+										<div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/exos-screens/jenkins1.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                    <img alt="Next Inc - CI/CD PIPELINE" src="images/exos-screens/jenkins1.png" title="CI/CD PIPELINE"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/exos-screens/jenkins2.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                    <img alt="Next Inc - CI/CD PIPELINE" src="images/exos-screens/jenkins2.png" title="CI/CD PIPELINE"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/exos-screens/jenkins3.png" data-fancybox="images" class="wheel_part-color3_image">
+                                                    <img alt="Next Inc - CI/CD PIPELINE" src="images/exos-screens/jenkins3.png" title="CI/CD PIPELINE"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+                       
+						<div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/Registry.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/Registry.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+										<div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/exos-screens/registry1.png" data-fancybox="images" class="wheel_part-color4_image">
+                                                     <img alt="Next Inc - CI/CD PIPELINE" src="images/exos-screens/registry1.png" title="CI/CD PIPELINE"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/exos-screens/registry2.png" data-fancybox="images" class="wheel_part-color4_image">
+                                                     <img alt="Next Inc - CI/CD PIPELINE" src="images/exos-screens/registry2.png" title="CI/CD PIPELINE"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+                                 <h3>PRIVATE REGISTRY</h3>
+								<div class="prodct_spec">
+									<p>One of the things that make Docker so useful is how easy it is to pull ready-to-use images from a central location, Dockers’ Central Registry. It is just as easy to push our own image (or collection of tagged images as a repository) to the same public registry so that everyone can benefit from our newly Dockerized service. </p>
+									<p>But sometimes we can’t share our repository with the world because it contains proprietary code or confidential information. For that reason, we are introducing an easy way to share repositories on our own registry so that we can control access to them and still share them among multiple Docker daemons. We can decide if our registry is public or private.</p>
+									<p>A hosted repository using the Docker repository format is typically called a private Docker registry. The Private Registry is configured to house private Docker images which are proprietary to the enterprise. It can be used to upload your own container images as well as third-party images. This will provide the native Docker registry functionality but within the firewall.</p>
+                                    <p>The private registry ensures that the application images are archived, versioned and tagged. This would mean that the development team or the enterprise can switch to a particular service and specific to a particular version at any point in time. This would help in debugging the issue much quicker. It also acts as a custodian of the images, which forms the basis of the container operation.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row">
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+								<div class="prodct_spec">
+                                    <h3>CATALOG</h3>
+									<p>EXOS provides a catalog of application templates that make it easy to deploy these complex stacks. Catalogs
+                                        are GitLab repositories filled with applications that are ready-made for deployment. Think of them as
+                                        templates for deployments. By accessing the Catalog tab, you can view all the templates that are available in
+                                        the enabled catalogs.</p>
+									<p>The Library catalog contains templates from the library catalog and the Community catalog contains templates from the community-catalog. EXOS will only be maintaining support for the certified templates in the library.</p>
+									<p>EXOS Container Platform has an app catalog that enables one-click deployments of many popular software
+                                        stacks like Jenkins, MySQL, Maria, GlusterFS etc. This Application stack can be provisioned in a click of a
+                                        button empowering the developer community in getting the required services in instant.</p>
+                                    <p>Adding a catalog is as simple as adding a catalog name, a URL and a branch name. There are two types of
+                                        catalogs that can be added to the EXOS Container. There are global catalogs and environment catalogs. In a
+                                        global catalog, the catalog templates are available in all environments. In an environment catalog, the
+                                        catalog templates are only available in the environment that the catalog is added to. </p>
+                                    <p>The EXOS Container catalog service requires private catalogs to be structured in a specific format in order for
+                                        the catalog service to be able to translate it into EXOS Container. Catalog templates are displayed in EXOS
+                                        Container based on what container orchestration type that was selected for the environment.</p>
+                                    <p>The time that takes in setting up the supporting development environment and also setting up some
+                                        environment for rapid prototyping or confirming a hypothesis is very large. This time consumption activity
+                                        would de-rail the development activity as well. The Catalog feature would assist in this situation and provide
+                                        a quick environment for the development team to leverage and develop faster.</p>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/Catalog.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/Catalog.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+										<div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                <a href="images/exos-screens/catalog1.png" data-fancybox="images" class="wheel_part-color5_image">
+                                                    <img alt="Next Inc - CATALOG" src="images/exos-screens/catalog1.png" title="CATALOG"></a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="images/exos-screens/catalog2.png" data-fancybox="images" class="wheel_part-color5_image">
+                                                    <img alt="Next Inc - CATALOG" src="images/exos-screens/catalog2.png" title="CATALOG"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+                       
+						<div class="row">
+                            <div class="col-xl-3 col-lg-4 col-sm-5">
+								<div class="row">
+									<div class="col-md-12">
+										<video height="240" controls>
+											<source src="images/exos-screens/videos/EXOS_Docker_Stack_Create.mp4" type="video/mp4">
+											<source src="images/exos-screens/videos/EXOS_Docker_Stack_Create.mp4" type="video/ogg">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									<div class="col-md-12" style="height: 50px;"></div>
+									<div class="col-md-12">
+										<div class="owl-carousel owl-theme">
+                                            <div class="item">
+                                                 <a href="images/exos-screens/prometheus1.png" data-fancybox="images" class="wheel_part-color6_image">
+                                                     <img alt="Next Inc - PROMETHEUS AUTO SCALING AND MONITORING" src="images/exos-screens/prometheus1.png" title="PROMETHEUS AUTO SCALING AND MONITORING"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/exos-screens/prometheus2.png" data-fancybox="images" class="wheel_part-color6_image">
+                                                     <img alt="Next Inc - PROMETHEUS AUTO SCALING AND MONITORING" src="images/exos-screens/prometheus2.png" title="PROMETHEUS AUTO SCALING AND MONITORING"></a>
+                                            </div>
+                                            <div class="item">
+                                                 <a href="images/exos-screens/prometheus3.png" data-fancybox="images" class="wheel_part-color6_image">
+                                                     <img alt="Next Inc - PROMETHEUS AUTO SCALING AND MONITORING" src="images/exos-screens/prometheus3.png" title="PROMETHEUS AUTO SCALING AND MONITORING"></a>
+                                            </div>
+                                          </div>
+									</div>
+									<div class="text-center col-md-12"  style="display:none;">
+										<button data-toggle="modal"
+											id="basicSuccess" type="button"
+											class="btn btn-success btn-eql-wid disabled btn-disabled">Try Me</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-sm-7">
+                                 <h3>PROMETHEUS AUTO SCALING AND MONITORING</h3>
+								<div class="prodct_spec">
+									<p>Monitoring applications and application servers is an important part of today’s DevOps culture & process. We want to continuously monitor your applications and servers for application exceptions, server CPU & memory usage, or storage spikes. We also want to get some type of notification if CPU or memory usage goes up for a certain period of time or service of our application stops responding so you can perform appropriate actions against those failures or exceptions.</p>
+									<p>In EXOS, you can create receiver hooks, which provides a URL that can be used to trigger action inside of EXOS. For example, the receiver hooks can be integrated with external monitoring systems to increase or decrease containers of a service. In API -> Webhooks, you can view and create new receiver hooks. By using a receiver hook to scale services, we can implement auto-scaling by integrating with external services.</p>
+									<p>Prometheus is offered through the EXOS Catalog and can be found under the Catalog. Launch Prometheus from the catalog entry. Within the Prometheus stack, find the service called Prometheus, which is exposed on port 9090 In order to call the receiver hook, Alert manager will need to be launched. We can add it to the Prometheus stack. </p>
+                                    <p>After Prometheus and Alert manager have been updated with alerts and hooks, make sure the services were restarted in order to have the configurations updated and active. For the services that alerts have been added, the services will automatically be scaled up or down based on the receiver hook that was created.</p>
+                                    <p>With Prometheus Monitoring and Auto scaling, the dynamic surge of request to a particular service can be addressed transparently to the consumer of the service. With the Scaling based on the threshold limits, the number of servers actually serving the request is scaled up or down resulting in getting the optimum performance for the service.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing7</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing8</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing9</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing10</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing11</p>
+                        </div>
+                    </section>
+                </div>
+                
+                <div class="bhoechie-tab-content no-scroll ">
+					<section>
+						<div class="row"><p>Testing12</p>
+                        </div>
+                    </section>
+                </div>
+			</div>
+		</div>
+        
+        
+        
+	</div>
+    
+	<div class="footer-wrap">
+		<div class="page-logo">
+			<a href="index.html" class="logo-default"><img alt="Next Logo"
+				src="images/nlogo.png"></a>
+		</div>
+		<h1 class="pagehead">EXOS - Container</h1>
+        <div class="login-sec-icon"><a href="#" data-toggle="modal" data-target="#login-model-section"><img src="images/cses-login-icon.png" alt="Next Inc - Login"></a></div>
+		<div class="flip-logo1"></div>
+        <div class="text-right back-to-btn">
+              <a href="cloud-engineering.html" style="color: #000;">
+                Back to Platform
+                  <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+              </a>
+          </div>
+        <div id='toTop'> 
+            <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+          </div>
+	</div>
+    
+           <!-- CSES Login Page Model Popup -->
+<div class="modal fade" id="login-model-section" tabindex="-1" role="dialog" aria-labelledby="login-model-section" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Login</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            <div class="form-group">
+               <label for="lpwd">Password <span class="monitary">*</span></label>
+               <input type="password" class="form-control" id="lpwd" name="lpwd" placeholder="Enter Your Password" minlength="8" maxlength="15" data-error=".errorTxt102" required="">
+            </div>
+            <div class="form-group">
+            <a href="#" class="forgot_password candidate_forgot" id="signin">Forgot Password</a>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-eql-wid btn-animate" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Login Page Model Popup --> 
+       
+        <!-- CSES Forget Password Model Popup -->
+<div class="modal fade" id="forget-model-sec" tabindex="-1" role="dialog" aria-labelledby="forget-model-sec" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="forgot_password">Forgot Password</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Forget Password Model Popup --> 
+    
+	<!-- Trail for you Popup Form---
+	<div class="modal fade" id="myModalHorizontal" tabindex="-1"
+		role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">×</span> <span class="sr-only">Close</span>
+					</button>
+				</div>
+				
+				<div class="modal-body">
+					<form class="form-horizontal" role="form">
+						<div class="form-group">
+							<label>User Name <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="text" class="form-control" placeholder="User name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Email Address <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="text" class="form-control"
+									placeholder="Email Address">
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Password <span class="required"
+								aria-required="true"> * </span></label>
+							<div class="input-icon">
+								<input type="password" class="form-control"
+									placeholder="Password">
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<div class="checkbox">
+									<label> <input type="checkbox" /> Remember me
+									</label>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				
+				<div class="modal-footer">
+					<button id="basicError" type="button"
+						class="btn btn-danger btn-eql-wid btn-animate">Close</button>
+					<button id="basicSuccess" type="button"
+						class="btn btn-success btn-eql-wid btn-animate">Save
+						changes</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End model popup form-->
+	<!-- jQuery plugins -->
+	<script src="js/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script> 
+    <!-- Font Awesome 5 plugins -->       
+    <script src="fonts/fontawesome-free-5.7.2-web/js/all.js"></script>      
+    <!-- Font Awesome 5 plugins -->
+	<!-- Animate jQuery plugins -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!-- Slider plugins -->
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.exos-bxslider1').bxSlider({
+				auto : true,
+				mode : 'horizontal',
+				minSlides : 1,
+				maxSlides : 1,
+				speed : 500,
+				pager : false,
+				controls : false
+
+			});
+            
+            $('.exos-bxslider2').bxSlider({
+				auto : true,
+				mode : 'horizontal',
+				minSlides : 1,
+				maxSlides : 1,
+				speed : 500,
+				pager : false,
+				controls : false
+
+			});
+                                      
+                $('.bxslider').bxSlider({
+				auto : true,
+				mode : 'horizontal',
+				minSlides : 1,
+				maxSlides : 1,
+				speed : 500,
+				pager : false,
+				controls : false
+
+			});
+		});
+	</script>
+	<script
+		src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+        var fancyBoxClass = 'wheel_part-color1';
+		$(document).ready(
+				function() {
+					$("#sidebar").mCustomScrollbar({
+						theme : "minimal"
+					});
+					$('#dismiss, .overlay').on('click', function() {
+						$('#sidebar').removeClass('active');
+						$('.overlay').fadeOut();
+					});
+					$('#sidebarCollapse').on(
+							'click',
+							function() {
+								$('#sidebar').addClass('active');
+								$('.overlay').fadeIn();
+								$('.collapse.in').toggleClass('in');
+								$('a[aria-expanded=true]').attr(
+										'aria-expanded', 'false');
+							});
+
+					$('#rotate_menu > li a').click(
+							function(e) {
+                                fancyBoxClass = $(this).parent().parent().get(0).className;
+								e.preventDefault();
+                                fancybox_image_filter();
+								var index = $(this).parent('div').parent('li')
+										.index();
+								$(this).addClass("active").siblings("li")
+										.removeClass("active");
+								if ($(".rotate-animation").css("animation") == "rotation 20s infinite linear"){
+									$(".rotate-animation").css("-webkit-animation", "rotation 120s infinite linear")
+								} else {
+									$(".rotate-animation").css(
+											"animation-play-state", "paused");
+								}
+								$("div.bhoechie-tab>div.bhoechie-tab-content")
+										.removeClass("active");
+								$("div.bhoechie-tab>div.bhoechie-tab-content")
+										.eq(index).addClass("active");
+								return false
+							});
+					$("div.bhoechie-tab").click(
+							function(e) {
+								if ($(".rotate-animation").css(
+										"animation-play-state") == "paused") {
+									$(".rotate-animation").removeAttr("style");
+								}
+							});
+					$('#rotate_menu').bind(
+							'mousewheel',
+							function(e) {
+								if ($(".rotate-animation").css(
+										"animation-play-state") == "paused") {
+									$(".rotate-animation").removeAttr("style");
+									$(".rotate-animation").css("-webkit-animation", "rotation 30s infinite linear")
+								}
+							});
+				});
+	</script>
+    
+<script src="js/owl.carousel.js"></script>
+    <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+          </script>
+    <!-- Script for menu logo icon change 05-03-2019 (Mathi)-->
+       <script>
+      $(document).ready(function(){
+          $(".navbar-header").trigger("click");
+      });
+        
+ function changeimage(){
+            setInterval(function(){  
+                
+            var logo_src = $(".menu_image").attr("src");
+                
+                
+              if(logo_src == "images/logo1.png") { 
+                  $(".menu_image").attr("src", "images/logo2.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+              else {
+                  $(".menu_image").attr("src", "images/logo1.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+            
+            }, 2000);}
+
+    </script>
+    <script src='js/fancy-box-slider.js'></script>
+       <script>
+           function fancybox_image_filter(){
+        selectorClass = '.owl-item:not(.cloned) .'+fancyBoxClass+'_image';
+           console.log('-654654--',selectorClass)
+        $().fancybox({
+         // selector : '.owl-item:not(.cloned) .wheel_part-color1_image',
+         selector : selectorClass,
+          hash   : false,
+          thumbs : {
+            autoStart : true
+          },
+          buttons : [
+            'zoom',
+            'download',
+            'close'
+          ]
+        });
+           }fancybox_image_filter()
+       </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+
+        $("#toTop").click(function () {
+           //1 second of animation time
+           //html works for FFX but not Chrome
+           //body works for Chrome but not FFX
+           //This strange selector seems to work universally
+           $("html, body").animate({scrollTop: 0}, 1000);
+        });
+       </script>
+    <script>
+        var winwidth = $(window).width();
+             // alert(winwidth);
+              if(winwidth > 1024) {
+                  $('.submenu-btn-arrow').removeAttr("data-toggle");
+              }
+              else {
+                  $('.submenu-btn-arrow').attr("data-toggle");
+              }
+    </script>
+    <script>
+$("#signin").on( "click", function() {
+        $('#login-model-section').modal('hide');  
+});
+//trigger next modal
+$("#signin").on( "click", function() {
+        $('#forget-model-sec').modal('show');  
+});   
+       </script>
+</body>
+</html>

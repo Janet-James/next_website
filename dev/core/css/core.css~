@@ -1,0 +1,7 @@
+.draw{cursor: pointer;}
+.errorTxt4, .errorTxt103{margin-top:30px;}
+.questions{font-weight: 600;}
+.errorTxt201, .errorTxt202, .errorTxt203, .errorTxt204, .errorTxt205, .errorTxt206, .errorTxt207, .errorTxt208, .errorTxt209, .errorTxt210, .errorTxt211, .errorTxt212{margin-top: -15px;}
+.core_answer{color: #3e7727;font-weight: 600;}
+#login_name{float: right;font-size: 19px;color: #4a5380;}
+.login_data_level_per{color: #1a457e;}

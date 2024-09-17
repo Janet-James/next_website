@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 26-03-19 Version - 1.0-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>NEXT Inc. Solutions Extraordinaire</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	         
+    <link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/mainstyle.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	<link  rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<div class="wrapper">
+         <!-- Sidebar Holder -->
+         <div class="menu-bg-out">
+            <nav id="sidebar">
+               <div class="menu-bg-img"></div>
+               <div id="dismiss"> 
+                   <div id="arrowAnimTop">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div> 
+                </div>
+           
+               <div class="sidebar-header"> </div>
+               <ul class="list-unstyled components">
+                  <li> <a href="index.html"><img src="images/menu-home.png" alt="Next Inc - Home Menu"><span class="menu-next">ext</span></a> </li>
+                  <li> <a href="who-we-are.html"><img src="images/menu-about.png" alt="Next Inc - Who We Are Menu">Who We Are</a> </li>
+                  <li> <a href="insight-digilog.html"><img src="images/menu-insight-and-inovation.png" alt="Next Inc - Insights and Digilog">Insights and Digilog</a> </li>
+                  <li>
+                     <a href="the-core.html"><img src="images/menu-prima.png" alt="Next Inc - The Core">The Core</a> 
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#core-collaps" aria-expanded="false" aria-controls="core-collaps"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="core-collaps">
+                        <li>
+                           <a href="digital-enterprise-solutions.html"><img src="images/menu-des.png" alt="Next Inc - Digital Enterprise Solutions">Digital Enterprise Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#des-collaps" aria-expanded="false" aria-controls="des-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="des-collaps">
+                              <li> <a href="lowcode.html"><img src="images/menu-lowcode.png" alt="Next Inc - Low Code Platform">Low Code Platform</a> </li>
+                               <li> <a href="transform.html"><img src="images/menu-tranform.png" alt="Next Inc - Transform Solution Suite">Transform Solution Suite</a> </li>
+                              <li> <a href="gis-digital-trasnformation.html"><img src="images/menu-geo.png" alt="Next Inc - GEO Spatial Solution">GEO Spatial Solution</a> </li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a href="digital-infra-solutions.html"><img src="images/menu-dis.png" alt="Next Inc - Digital Infrastructure Solutions">Digital Infrastructure Solutions</a>
+                            <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#dis-collaps" aria-expanded="false" aria-controls="dis-collaps"><i class="fa fa-angle-down"></i></button>
+                           <ul class="sub-childmenu-items collapse" id="dis-collaps">
+                              <li> <a href="cloud-engineering.html"><img src="images/menu-cloud.png" alt="Next Inc - Platform">Platform</a> </li>
+                               <li> <a href="dis-product-list.html"><img src="images/menu-products.png" alt="Next Inc - Products">Products</a> </li>
+                              <li> <a href="service.html"><img src="images/menu-security.png" alt="Next Inc - Services">Services</a> </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="industry-verticals.html"><img src="images/menu-industrial.png" alt="Next Inc - Industry & Verticals">Industry &amp; Verticals</a>
+                      <button class="submenu-btn-arrow" data-toggle="collapse" data-target="#indus-collapse"	 aria-expanded="false" aria-controls="indus-collapse"><i class="fa fa-angle-down"></i></button>
+                     <ul class="sub-menu-items collapse" id="indus-collapse">
+                        <li> <a href="govt-sector.html"><img src="images/menu-goverment.png" alt="Next Inc - Government/Public">Government/Public</a> </li>
+                        <li> <a href="oil-gas-sector.html"><img src="images/menu-oil.png" alt="Next Inc - Oil & Gas">Oil &amp; Gas</a> </li>
+                        <li> <a href="trasnport.html"><img src="images/menu-transport.png" alt="Next Inc - Transportation & Logistics">Transportation &amp; Logistics</a> </li>
+                        <li> <a href="banking.html"><img src="images/menu-banking.png" alt="Next Inc - Banking & Financial Services">Banking &amp; Financial Services</a> </li>
+                        <li> <a href="healthcare.html"><img src="images/menu-healthcare.png" alt="Next Inc - Healthcare">Healthcare</a> </li>
+                        <li> <a href="renewable-energy.html"><img src="images/menu-reneweble.png" alt="Next Inc - Renewable Energy">Renewable Energy</a> </li>
+                        <li> <a href="agriculture.html"><img src="images/menu-agriculture.png" alt="Next Inc - Agriculture">Agriculture</a> </li>
+                     </ul>
+                  </li>
+                  <li> <a href="joinus.html"><img src="images/menu-joinus1.png" alt="Next Inc - Join Us">Join Us</a> </li>
+                  <li> <a href="reachus.html"><img src="images/menu-reach-us.png" alt="Next Inc - Reach Us">Reach Us</a> </li> 
+               </ul>
+            </nav>
+         </div>
+         <!-- Page Content Holder -->
+          <div id="mainmenu">
+            <nav class="navbar navbar-default pull-right">
+               <div class="navbar-header" onclick="changeimage()">
+                  <button type="button" id="sidebarCollapse" class="btn navbar-btn" >
+                      <img class="menu_image" src="images/logo1.png" alt="Next Inc - Logo">
+                     <span>ext</span>
+                  </button>
+               </div>
+            </nav>
+         </div>
+      </div>
+	<div class="overlay"></div>
+	<div class="container-fluid content_wrapper">
+		<h2 class=""> Insights and Digilog</h2>
+        <div class="row">
+            <div class="col-lg-9 col-md-6 margin-bottom-50">
+                <div class="row">
+			<div class="col-lg-7 col-md-12">
+				<!-- Media -->
+				<div class="media" style="visibility: visible; animation-delay: 0s; animation-name: fadeIn;">
+					<div class="media-left media-top"> <img data-wow-delay="0s" src="images/insight-icon1.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Digital-The Future"> </div>
+					<div class="media-body">
+						<h4 class="media-heading">Digital-The Future</h4>
+						<p>Organizations today are stepping up quickly to become more than what they already are. Digital Transformation is a key to that. What does the term digital mean? Digital is the way of engaging with customers.</p>
+                            <div><b>The following three aspects define digital:</b>  </div>
+                        
+                            <ul class="margin-top-10"> 
+                                <li>Creating value at the new frontiers of the business world</li>
+                                <li>Creating value in the processes that execute a vision of customer experiences</li>
+                                <li>Building foundational capabilities that support the entire structure.</li>
+                            </ul>
+					</div>
+				</div>
+				<!-- Media -->
+				<div class="media">
+					<div class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon2.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> </div>
+					<div class="media-body">
+						<h4 class="media-heading">Creating Value at New Frontiers</h4>
+						<p>Creating values by means of understanding how customer expectations are developing inside and outside your business, outside your sector.  This is crucial in getting ahead of trends that can deliver value.</p>
+					</div>
+				</div>
+                
+             
+			</div>
+           
+			<div class="col-lg-5 col-md-12">
+				<div class="center-block text-center run-infra-each-img"><!--<img src="images/core-.jpg" class="img-responsive">-->
+                    <img class="img-vertical-cent" src="images/insight-info3.png" alt="Next Inc - Insight Innovation">
+                </div>
+			</div>
+        </div>
+                <div class="row">
+            <div class="col-lg-7 col-md-12">
+                <!-- Media -->
+				<div class="media">
+					<div class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon3.png" alt="Next Inc - Creating Value in Core Businesses" class="media-object wow zoomIn" style="max-width: 60px;"> </div>
+					<div class="media-body">
+						<h4 class="media-heading">Creating Value in Core Businesses</h4>
+						<p>The next element of digital is to use new ability to enhance how customers are served. Each step of the customer’s drive in buy the products should be clearly understood by discerning how digital capabilities can design and deliver the best solutions and experience across all industrial sectors.</p>
+                        <p>It’s all about implementing a dynamic process where processes and competencies are constantly evolving. This can be effectively done based on the inputs from the customer and by nurturing on-going product or service loyalty.</p>
+					</div>
+				</div>
+                
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <!-- Media -->
+				<div class="media">
+					<div class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon4.png" alt="Next Inc - Future Workforce" class="media-object wow zoomIn" style="max-width: 60px;"> </div>
+					<div class="media-body">
+						<h4 class="media-heading">Future Workforce</h4>
+						<p>All inclusive approach that creates the more productive and adaptive workforce, uses digital transformation technologies to reinvent the employee and enable organizations to be more active.</p>
+                        <p>The digital transformation insists that people attain new skills and get new ways of working. These will be the two trends for new talent and organization strategies.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+                <div class="row">
+                <div class="col-md-12 col-sm-12">
+                <h5>The Core Capabilities</h5>
+                <ul class="row insight-ulli">
+                    <li class="col-lg-4 col-md-12"><span class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon5.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Proactive Problem Solving"> </span><b>Proactive Problem Solving</b>
+                        <p>Relevance is the currency of the digital age. It requires decision making based on intelligence and relevance to the customer.</p></li>
+                    <li class="col-lg-4 col-md-12"><span class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon6.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Contextual Interactivity"> </span><b>Contextual Interactivity</b>
+                         <p>Depends on how the customer is interacting with a brand and modifying interactions to improve customer experience.</p></li>
+                    <li class="col-lg-4 col-md-12"><span class="media-left media-top"> <img data-wow-delay="0.5s" src="images/insight-icon7.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Innovation Focus"> </span><b>Innovation Focus</b>
+                         <p>Helping customers well bestow organization to be innovative in how they interact to sell the product to customers.</li>
+                </ul>
+                    </div>
+		</div>
+                <div class="building-found">
+			<h2 class="text-center">Building Foundational Digital Capabilities</h2> 
+            <span class="product-txt">The final element of digital is about the technological and organizational processes that allow an enterprise to be agile and fast. A key aspect of digitized IT is the commitment to developing networks that connect devices, objects, and people.
+Digital is about unlocking growth now. Having a clear perspective of what digital means allows business leaders to develop a shared vision of how it can be used to capture value.</span> 
+        </div>
+                <div class="all-blog-sec">
+            <a style="display: none;" class="hvr-icon-wobble-horizontal back-to-digilo-pg" href="insight-innovation-update.html">Back to Digilog <i class="fas fa-times hvr-icon"></i></a>
+                <div id="blog1" class="blog-append-sec" style="display: none;">
+                    <h1>DES Products</h1>
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12">
+                <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. 
+A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, 
+enhances competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, digitalized clients anticipate completely consistent and joined-up involvement. To enable such digital 
+transformations, the governance structures and standards should be thought about and developed accordingly.
+The digital revolt has its impact on the enterprises across the world and it becomes crucial for the organizations to sustain in this 
+competitive scenario. This highlights the need for Digital Enterprise Solutions that are integrated with cloud-based applications and enable custom application development. Our experience with digital solutions facilitates organizations to resolve the business 
+problems with innovative solutions in order to achieve maximum Return on Investment (ROI).</p>
+                             <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. 
+A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, 
+enhances competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, digitalized clients anticipate completely consistent and joined-up involvement. To enable such digital.</p>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon1.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div>  
+                            
+                               <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon2.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div>  
+                            
+                               <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                            </div>
+                        <div class="col-lg-4 col-md-12"> 
+                            <img src="images/blog-layout-1-img-1.png" alt="Next Inc - Insight Innovation">
+                            <br>
+                            <br>
+                        <h3 class="blog-highlight-txt text-right">Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes.</h3>
+                        </div>
+                   </div>
+
+                </div>
+                
+                <div id="blog2" class="blog-append-sec" style="display: none;">
+                    <h1>DES Products-1</h1>
+                    <div class="row">
+                        <div class="col-md-12">
+                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. 
+A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, 
+enhances competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, digitalized clients anticipate completely consistent and joined-up involvement. To enable such digital 
+transformations, the governance structures and standards should be thought about and developed accordingly.
+The digital revolt has its impact on the enterprises across the world and it becomes crucial for the organizations to sustain in this 
+competitive scenario. This highlights the need for Digital Enterprise Solutions that are integrated with cloud-based applications and enable custom application development. Our experience with digital solutions facilitates organizations to resolve the business 
+problems with innovative solutions in order to achieve maximum Return on Investment (ROI).</p>    
+                </div>
+                </div>
+                          <div class="row">
+                              <div class="col-md-4 text-center"> <img src="images/blog-layout-2-img-1.png" alt="Next Inc - Insight Innovation"></div>
+                        <div class="col-md-8">
+                           <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon1.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon2.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" style="max-width: 60px;" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                            </div>
+                        
+                   </div>
+                    <h3 class="blog-highlight-txt text-center">Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes.</h3>
+                    
+                </div>
+                
+                <div id="blog3" class="blog-append-sec" style="display: none;">
+                    <h1>This is blog3</h1>
+<p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. 
+A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, 
+enhances competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, digitalized clients anticipate completely consistent and joined-up involvement. To enable such digital 
+transformations, the governance structures and standards should be thought about and developed accordingly.
+The digital revolt has its impact on the enterprises across the world and it becomes crucial for the organizations to sustain in this 
+competitive scenario. This highlights the need for Digital Enterprise Solutions that are integrated with cloud-based applications and enable custom application development. Our experience with digital solutions facilitates organizations to resolve the business 
+problems with innovative solutions in order to achieve maximum Return on Investment (ROI).</p>
+                    <div class="row">
+                    <div class="col-md-8">
+                        <h4>Digital Transformation</h4>
+                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, 
+                        enhances competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, digitalized clients anticipate completely consistent and joined-up involvement.</p>
+                        <br>
+                        
+                        <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                        <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-4.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                        <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-5.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                    </div>
+                    <div class="col-md-4">
+                           <h3 class="blog-highlight-txt-1 text-center">"Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes".</h3>
+                        <br>
+                        <br>
+                        <img src="images/blog-layout-3-img-1.png">
+                    </div>
+                    </div>
+                </div>
+                
+                <div id="blog4" class="blog-append-sec" style="display: none;">
+                    <h1>This is blog4</h1>
+                    <div class="row">
+                    <div class="col-md-4"><img src="images/blog-layout-3-img-1.png"></div>
+                    <div class="col-md-8">
+                <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances 
+competitive standing, and improves customer delight. The most challenging factor for organizations today is to function in a joined-up, end-to-end way. Many organizations are currently functioning around distinctive competences or geographical presence. However, 
+digitalized clients anticipate completely consistent and joined-up involvement. To enable such digital transformations, the governance structures and standards should be thought about and developed accordingly.
+The digital revolt has its impact on the enterprises across the world and it becomes crucial for the organizations to sustain in this 
+competitive scenario. This highlights the need for Digital Enterprise Solutions that are integrated with cloud-based applications and enable custom application development. Our experience with digital solutions facilitates organizations to resolve the business problems with innovative solutions in order to achieve maximum Return on Investment (ROI).</p>
+                        <h3 class="blog-highlight-txt-1 text-center">"Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes".</h3>
+                        </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <h5>Features</h5>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. </p>
+                                </div>
+				            </div>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. </p>
+                                </div>
+				            </div>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. </p>
+                                </div>
+				            </div>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. </p>
+                                </div>
+				            </div>
+                            <div class="media">
+                                <div class="media-left media-top"> 
+                                    <img data-wow-delay="0.5s" src="images/insight-icon3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. </p>
+                                </div>
+				            </div>
+                           
+                        </div>
+                        <div class="col-md-7">
+                            <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-3.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                        <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-4.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div> 
+                        <div class="media">
+                                <div class="media-left media-top media-large-img"> 
+                                    <img data-wow-delay="0.5s" src="images/blog-layout-3-img-5.png" class="media-object wow zoomIn" alt="Next Inc - Creating Value at New Frontiers"> 
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">HEADING 1</h4>
+                                    <p>Information Technology and Services are progressively utilized in businesses to oversee and automate everyday processes. A business that utilizes digitalized solutions for data innovation, drives down operational costs, boosts the return on human capital, enhances competitive standing, and improves customer delight. </p>
+                                </div>
+				            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="blog5" class="blog-append-sec" style="display: none;">
+                    <h1>This is blog5</h1>
+                <p>Employee Experience From the past few years, it has been seen businesses focus on mainly creating a positive experience to help drive the success of their business. The main focus is on developing an irresistible employee experience and it is powerful to take care of the employees and also for customers. The employee well being is very important part of the foundation for the organization culture and it has been focused automatically it gets impact on the employee experience.
+
+                    Employees who are very passionate in their jobs and feel like they belong are more tending to stay with their organization. When company culture allows employees to learn and thrive, they know the organization supports values and understands them.</p>
+                </div>
+                    </div>
+                
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="right-digilog-txt">Digilog</h4>
+                <div class="Blog-Section">
+                    
+                    <div class="search-section">
+                        <h5>Search Topics</h5>
+<!--
+                          <form class="search-container" action="//llamaswill.tumblr.com/search">
+                              <input id="search-box" type="text" class="search-box" name="q" />
+                              <label for="search-box"><span class="fa fa-search search-icon"></span></label>
+                              <input type="submit" id="search-submit" />
+                          </form>
+-->
+                        
+                        <div id="header-2" class="header">
+                              <div class="header-nav">
+                                <div class="search-button">
+                                  <a href="#" class="search-toggle" data-selector="#header-2"></a>
+                                </div>
+                                    <ul class="menu">
+                                          <li><a href="#">Topics</a></li>
+                                          <li><a href="#">Dates</a></li>
+                                          <li><a href="#">Industries</a></li>
+                                        </ul>
+                                <form action="" class="search-box">
+                                  <input type="text" class="text search-input" placeholder="Type here to search...">
+                                </form>
+                              </div>
+                        </div>
+                        
+                    </div>
+            <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Latest (10) <span class="right-arrow"><i class="fa fa-angle-down"></i></span>
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body" id= "tag_a_click">
+       <div><a class="cat-ind-text" href="#">DES Products</a></div>
+       <div><a class="cat-ind-text" href="#">DES Products-1</a></div>
+       <div><a class="cat-ind-text" href="#">This is blog3</a></div>
+       <div><a class="cat-ind-text" href="#">This is blog4</a></div>
+       <div><a class="cat-ind-text" href="#">This is blog5</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Last week (11) <span class="right-arrow"><i class="fa fa-angle-down"></i></span>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Last Month (26) <span class="right-arrow"><i class="fa fa-angle-down"></i></span>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+                  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+          Last Year (26) <span class="right-arrow"><i class="fa fa-angle-down"></i></span>
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+                    
+                <div class="replated-topics"> 
+                    <h5>Meta Tag</h5>
+                    <ul>
+                        <li><a href="#">DES</a></li>
+                        <li><a href="#">DIS</a></li>
+                        <li><a href="#">Cloud Computing</a></li>
+                        <li><a href="#">Exos</a></li>
+                        <li><a href="#">Performance</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Digital Transformation</a></li>
+                    </ul>
+                    </div>
+</div>
+            </div>
+        </div>
+
+		
+	</div>
+	<div class="footer-wrap">
+		<div class="page-logo">
+			<a href="index.html" class="logo-default"><img alt="Next Logo" src="images/nlogo.png" alt="Next Inc - Logo"></a>
+		</div>
+		<h1 class="pagehead">Insights and Digilog</h1>
+        <div class="login-sec-icon"><a href="#" data-toggle="modal" data-target="#login-model-section"><img src="images/cses-login-icon.png"></a></div>
+		<div class="flip-logo1"> </div>
+        <div id='toTop'> 
+            <div id="arrowAnim">
+                  <div class="arrowSliding">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay1">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay2">
+                    <div class="arrow"></div>
+                  </div>
+                  <div class="arrowSliding delay3">
+                    <div class="arrow"></div>
+                  </div>
+                </div>
+          </div>
+	</div>
+    
+           <!-- CSES Login Page Model Popup -->
+<div class="modal fade" id="login-model-section" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Login</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            <div class="form-group">
+               <label for="lpwd">Password <span class="monitary">*</span></label>
+               <input type="password" class="form-control" id="lpwd" name="lpwd" placeholder="Enter Your Password" minlength="8" maxlength="15" data-error=".errorTxt102" required="">
+            </div>
+            <div class="form-group">
+            <a href="#" class="forgot_password candidate_forgot" id="signin">Forgot Password</a>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-eql-wid btn-animate" data-dismiss="modal">Reset</button>
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Login Page Model Popup --> 
+       
+        <!-- CSES Forget Password Model Popup -->
+<div class="modal fade" id="forget-model-sec" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLongTitle">Forgot Password</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <form>
+            <div class="form-body ">
+            <div class="form-group">
+            <label for="lemail">User Name (Email) <span class="monitary">*</span></label>
+            <div class="input-icon">
+            <input type="text" class="form-control" placeholder="Enter Your User Name (Email)" id="lemail" name="lemail" maxlength="50" data-error=".errorTxt101"> 
+            </div>
+            </div>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success btn-eql-wid btn-animate">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- End CSES Forget Password Model Popup --> 
+    
+	<!-- jQuery plugins -->
+	<script src="js/jquery.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script> 
+    <!-- Font Awesome 5 plugins -->       
+    <script src="fonts/fontawesome-free-5.7.2-web/js/all.js"></script>     
+    <!-- Font Awesome 5 plugins -->
+	<!-- Animate jQuery plugins -->
+	<script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
+	<!-- Slider plugins -->
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+	$(document).ready(function() {
+		$('.bxslider').bxSlider();
+	});
+	</script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$("#sidebar").mCustomScrollbar({
+			theme: "minimal"
+		});
+		$('#dismiss, .overlay').on('click', function() {
+			$('#sidebar').removeClass('active');
+			$('.overlay').fadeOut();
+		});
+		$('#sidebarCollapse').on('click', function() {
+			$('#sidebar').addClass('active');
+			$('.overlay').fadeIn();
+			$('.collapse.in').toggleClass('in');
+			$('a[aria-expanded=true]').attr('aria-expanded', 'false');
+		});
+	});
+	</script>
+    <!-- Script for menu logo icon change 05-03-2019 (Mathi)-->
+       <script>
+          $(document).ready(function(){
+              $(".navbar-header").trigger("click");
+          });
+        
+         function changeimage(){
+            setInterval(function(){  
+                
+            var logo_src = $(".menu_image").attr("src");
+                
+                
+              if(logo_src == "images/logo1.png") { 
+                  $(".menu_image").attr("src", "images/logo2.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+              else {
+                  $(".menu_image").attr("src", "images/logo1.png");
+                  $(".menu_image").addClass("animated fadeIn infinite");
+              }
+            
+            }, 2000);}
+
+    </script>
+    <script>
+        /*function toggle_visibility(id) {
+           var e = document.getElementById(id);
+           if(e.style.display == 'block')
+              e.style.display = 'none';
+           else
+              e.style.display = 'block';
+        }*/
+        
+        $('#tag_a_click div a').click(function(e){
+            try{
+            $('.blog-append-sec').hide()
+            var selected_a_text = $(this).text();
+            $('.blog-append-sec').each(function() {
+                var currentElement = $(this).find('h1');
+                var value = currentElement.text(); // if it is an input/select/textarea field
+                if(selected_a_text == value){
+                    $(this).show()
+                }
+                
+                // TODO: do something with the value
+            });
+            }catch(e){
+                console.log("-----Error in Heading")
+            }
+            
+        });
+    </script>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop()) {
+                $('#toTop').fadeIn();
+            } else {
+                $('#toTop').fadeOut();
+            }
+        });
+
+        $("#toTop").click(function () {
+           //1 second of animation time
+           //html works for FFX but not Chrome
+           //body works for Chrome but not FFX
+           //This strange selector seems to work universally
+           $("html, body").animate({scrollTop: 0}, 1000);
+        });
+       </script>
+    <script>
+        $(document).ready(function(){
+          $("#tag_a_click div a").click(function(){
+            $(".building-found").hide();
+          });
+            
+             $("#tag_a_click div a").click(function(){
+            $(".back-to-digilo-pg").show();
+          });
+        });
+    </script>
+    <script>
+        document.addEventListener("touchstart", function(){}, true);
+    </script>
+    <script>
+            $('.header').on('click', '.search-toggle', function(e) {
+              var selector = $(this).data('selector');
+
+              $(selector).toggleClass('show').find('.search-input').focus();
+              $(this).toggleClass('active');
+
+              e.preventDefault();
+            });
+    </script>
+    <script>
+        var winwidth = $(window).width();
+             // alert(winwidth);
+              if(winwidth > 1024) {
+                  $('.submenu-btn-arrow').removeAttr("data-toggle");
+              }
+              else {
+                  $('.submenu-btn-arrow').attr("data-toggle");
+              }
+    </script>
+    <script>
+$("#signin").on( "click", function() {
+        $('#login-model-section').modal('hide');  
+});
+//trigger next modal
+$("#signin").on( "click", function() {
+        $('#forget-model-sec').modal('show');  
+});   
+       </script>
+</body>
+
+</html>
